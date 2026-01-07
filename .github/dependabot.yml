@@ -32,6 +32,8 @@ updates:
           - "eslint"
           - "eslint-*"
           - "@eslint/*"
+        exclude-patterns:
+          - "eslint-plugin-formatjs"
       stylelint:
         patterns:
           - "stylelint"
@@ -40,8 +42,9 @@ updates:
         patterns:
           - "react"
           - "react-*"
+          - "babel-plugin-react-compiler"
         exclude-patterns:
-          - "react-i18next"
+          - "react-intl"
       tanstack-router:
         patterns:
           - "@tanstack/react-router*"
@@ -60,6 +63,19 @@ updates:
         patterns:
           - "@tanstack/react-devtools*"
           - "@tanstack/devtools*"
+      formatjs:
+        patterns:
+          - "react-intl"
+          - "@formatjs/*"
+          - "babel-plugin-formatjs"
+          - "eslint-plugin-formatjs"
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+      compound:
+        patterns:
+          - "@vector-im/compound-*"
       types:
         patterns:
           - "@types/*"

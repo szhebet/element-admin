@@ -46,7 +46,6 @@ const getLocaleLoader = (
 
 const DEFAULT_LOCALE = "en";
 
-// eslint-disable-next-line react-refresh/only-export-components -- We should probably move that?
 export const AVAILABLE_LOCALES = Object.keys(locales)
   .map((url) => {
     const lang = url.match(/\/([^/]+)\.json$/)?.[1];
