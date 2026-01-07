@@ -34,7 +34,7 @@ jobs:
       - name: Compute vault jwt role name
         id: vault-jwt-role
         run: |
-           echo "role_name=github_service_management_$( echo "${{ github.repository }}" | sed -r 's|[/-]|_|g')" | tee -a "$GITHUB_OUTPUT"
+          echo "role_name=github_service_management_$( echo "${{ github.repository }}" | sed -r 's|[/-]|_|g')" | tee -a "$GITHUB_OUTPUT"
 
       - name: Get team backend registry token
         id: import-secrets
@@ -46,8 +46,8 @@ jobs:
           jwtGithubAudience: https://vault.infra.ci.i.element.dev
           method: jwt
           secrets: |
-             services/backend-repositories/secret/data/oci.element.io username | OCI_USERNAME ;
-             services/backend-repositories/secret/data/oci.element.io password | OCI_PASSWORD ;
+            services/backend-repositories/secret/data/oci.element.io username | OCI_USERNAME ;
+            services/backend-repositories/secret/data/oci.element.io password | OCI_PASSWORD ;
 
       - name: Login to Registry
         uses: docker/login-action@v3
