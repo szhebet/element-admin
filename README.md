@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+SPDX-FileCopyrightText: Copyright 2025, 2026 Element Creations Ltd.
 
 SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 -->
@@ -99,8 +100,9 @@ We welcome contributions from the community! If you'd like to suggest changes or
 ## ⚖️ Copyright & License
 
 Copyright 2025 New Vector Ltd.
+Copyright 2025, 2026 Element Creations Ltd.
 
-This software is dual-licensed by New Vector Ltd (Element). It can be used either:
+This software is dual-licensed by Element Creations Ltd. It can be used either:
 
 (1) for free under the terms of the GNU Affero General Public License (as published by the Free Software Foundation, version 3 of the License); OR
 
