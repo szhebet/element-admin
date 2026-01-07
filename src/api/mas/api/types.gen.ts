@@ -289,13 +289,13 @@ export type ErrorResponse = {
   /**
    * The list of errors
    */
-  errors: Array<_Error>;
+  errors: Array<Error>;
 };
 
 /**
  * A single error
  */
-export type _Error = {
+export type Error = {
   /**
    * A human-readable title for the error
    */

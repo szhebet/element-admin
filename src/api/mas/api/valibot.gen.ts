@@ -15,14 +15,7 @@ export const vSiteConfig = v.object({
   account_deactivation_allowed: v.optional(v.boolean()),
   captcha_enabled: v.optional(v.boolean()),
   minimum_password_complexity: v.optional(
-    v.pipe(
-      v.number(),
-      v.integer(),
-      v.minValue(0, "Invalid value: Expected uint8 to be >= 0"),
-      v.maxValue(255, "Invalid value: Expected uint8 to be <= 2^8-1"),
-      v.minValue(0),
-      v.maxValue(4),
-    ),
+    v.pipe(v.number(), v.integer(), v.minValue(0), v.maxValue(4)),
   ),
 });
 
@@ -319,12 +312,11 @@ export const vCreatePersonalSessionRequest = v.object({
       v.pipe(
         v.number(),
         v.integer(),
-        v.minValue(0, "Invalid value: Expected uint32 to be >= 0"),
+        v.minValue(0),
         v.maxValue(
           4294967295,
-          "Invalid value: Expected uint32 to be <= 2^32-1",
+          "Invalid value: Expected uint32 to be <= 4294967295",
         ),
-        v.minValue(0),
       ),
       v.null(),
     ]),
@@ -348,12 +340,11 @@ export const vRegeneratePersonalSessionRequest = v.object({
       v.pipe(
         v.number(),
         v.integer(),
-        v.minValue(0, "Invalid value: Expected uint32 to be >= 0"),
+        v.minValue(0),
         v.maxValue(
           4294967295,
-          "Invalid value: Expected uint32 to be <= 2^32-1",
+          "Invalid value: Expected uint32 to be <= 4294967295",
         ),
-        v.minValue(0),
       ),
       v.null(),
     ]),
@@ -600,12 +591,11 @@ export const vUserRegistrationToken = v.object({
       v.pipe(
         v.number(),
         v.integer(),
-        v.minValue(0, "Invalid value: Expected uint32 to be >= 0"),
+        v.minValue(0),
         v.maxValue(
           4294967295,
-          "Invalid value: Expected uint32 to be <= 2^32-1",
+          "Invalid value: Expected uint32 to be <= 4294967295",
         ),
-        v.minValue(0),
       ),
       v.null(),
     ]),
@@ -613,9 +603,11 @@ export const vUserRegistrationToken = v.object({
   times_used: v.pipe(
     v.number(),
     v.integer(),
-    v.minValue(0, "Invalid value: Expected uint32 to be >= 0"),
-    v.maxValue(4294967295, "Invalid value: Expected uint32 to be <= 2^32-1"),
     v.minValue(0),
+    v.maxValue(
+      4294967295,
+      "Invalid value: Expected uint32 to be <= 4294967295",
+    ),
   ),
   created_at: v.pipe(v.string(), v.isoTimestamp()),
   last_used_at: v.optional(
@@ -661,12 +653,11 @@ export const vAddUserRegistrationTokenRequest = v.object({
       v.pipe(
         v.number(),
         v.integer(),
-        v.minValue(0, "Invalid value: Expected uint32 to be >= 0"),
+        v.minValue(0),
         v.maxValue(
           4294967295,
-          "Invalid value: Expected uint32 to be <= 2^32-1",
+          "Invalid value: Expected uint32 to be <= 4294967295",
         ),
-        v.minValue(0),
       ),
       v.null(),
     ]),
@@ -696,12 +687,11 @@ export const vEditUserRegistrationTokenRequest = v.object({
       v.pipe(
         v.number(),
         v.integer(),
-        v.minValue(0, "Invalid value: Expected uint32 to be >= 0"),
+        v.minValue(0),
         v.maxValue(
           4294967295,
-          "Invalid value: Expected uint32 to be <= 2^32-1",
+          "Invalid value: Expected uint32 to be <= 4294967295",
         ),
-        v.minValue(0),
       ),
       v.null(),
     ]),
