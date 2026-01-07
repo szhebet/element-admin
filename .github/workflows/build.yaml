@@ -39,7 +39,7 @@ jobs:
 
       - name: Get team backend registry token
         id: import-secrets
-        uses: hashicorp/vault-action@v2
+        uses: hashicorp/vault-action@v3
         with:
           url: https://vault.infra.ci.i.element.dev
           role: ${{ steps.vault-jwt-role.outputs.role_name }}
