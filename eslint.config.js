@@ -17,7 +17,6 @@ import eslintConfigPrettier from "eslint-config-prettier/flat";
 import tanstackRouterPlugin from "@tanstack/eslint-plugin-router";
 import tanstackQueryPlugin from "@tanstack/eslint-plugin-query";
 import compatPlugin from "eslint-plugin-compat";
-// eslint-disable-next-line import-x/default -- The exported types are wrong
 import formatjsPlugin from "eslint-plugin-formatjs";
 
 export default defineConfig(
