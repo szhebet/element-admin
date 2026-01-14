@@ -9,24 +9,31 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
 Element Admin is a web-based administration panel for the [Element Server Suite](https://element.io/server-suite), available in both [ESS Pro](https://element.io/server-suite/pro) and in the free [ESS Community](https://github.com/element-hq/ess-helm) edition.
 
-## 🚀 Quick Start
+## 🚀 Try it
 
 You can try the latest Element Admin using the hosted version at <https://admin-beta.element.dev/>.
 
 ![Dashboard screenshot](./docs/screenshot.png)
 
+## 🚀 Getting started
+
+This component is developed and maintained by [Element](https://element.io). It gets shipped as part of the **Element Server Suite (ESS)** which provides the official means of deployment.
+
+ESS is a Matrix distribution from Element with focus on quality and ease of use. It ships a full Matrix stack tailored to the respective use case.
+
+There are three editions of ESS:
+
+- [ESS Community](https://github.com/element-hq/ess-helm) - the free Matrix distribution from Element tailored to small-/mid-scale, non-commercial community use cases
+- [ESS Pro](https://element.io/server-suite/pro) - the commercial Matrix distribution from Element for professional use
+- [ESS TI-M](https://element.io/server-suite/ti-messenger) - a special version of ESS Pro focused on the requirements of TI-Messenger Pro and ePA as specified by the German National Digital Health Agency Gematik
+
 ## 💬 Community room
 
 Developers and users of Element Admin can chat in the [#ess-community:element.io](https://matrix.to/#/#ess-community:element.io) room on Matrix.
 
-## 🛠️ Installing and configuration
+## 📝 Prerequisites and standalone installation
 
-Element Admin ships as part of the [Element Server Suite](https://element.io/server-suite) and is **enabled by default, starting version 25.9.2**.
-Refer to the [ESS setup instructions](https://github.com/element-hq/ess-helm#installation) for more information.
-
-### 📝 Prerequisites
-
-Element Admin is designed to work with the components that ship with ESS.
+Element Admin is designed to work with the components that ship with [ESS](https://element.io/en/server-suite).
 It assumes the following, which is **handled out of the box by ESS version 25.9.2 or later**:
 
 - A [Synapse](https://github.com/element-hq/synapse) instance and [its admin API](https://element-hq.github.io/synapse/latest/reverse_proxy.html#synapse-administration-endpoints) accessible
