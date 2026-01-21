@@ -92,7 +92,7 @@
     "eslint-plugin-react-refresh": "0.4.26",
     "eslint-plugin-unicorn": "62.0.0",
     "husky": "9.1.7",
-    "knip": "5.81.0",
+    "knip": "5.82.1",
     "lint-staged": "16.2.7",
     "prettier": "3.8.0",
     "stylelint": "17.0.0",
