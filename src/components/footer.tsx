@@ -45,7 +45,6 @@ export const CopyrightNotice: React.FC = () => (
   <div className={styles["copyright-notice"]}>
     <FormattedMessage
       id="footer.copyright_notice"
-      // eslint-disable-next-line formatjs/no-emoji -- That's not an emoji
       defaultMessage="Copyright © {now, date, ::yyyy}"
       description="The copyright notice on the footer"
       values={{ now: new Date() }}
