@@ -71,7 +71,7 @@
     "@tanstack/router-plugin": "1.154.11",
     "@tsconfig/strictest": "2.0.8",
     "@tsconfig/vite-react": "7.0.2",
-    "@types/node": "25.0.9",
+    "@types/node": "25.0.10",
     "@types/react": "19.2.9",
     "@types/react-dom": "19.2.3",
     "@types/semver": "7.7.1",
