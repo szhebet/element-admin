@@ -12,7 +12,6 @@ const infinite = new Promise(() => {
   /* Never resolve */
 });
 
-// eslint-disable-next-line react-refresh/only-export-components
 const Waiting: React.FC = () => {
   throw infinite;
 };

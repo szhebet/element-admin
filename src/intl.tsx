@@ -70,7 +70,7 @@ const getBestLocale = (): string =>
  *
  * @returns The best supported language
  */
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const useBestLocale = (): string =>
   useSyncExternalStore((callback) => {
     globalThis.addEventListener("languagechange", callback);
@@ -93,7 +93,6 @@ const localeQuery = (locale: string) =>
 
 const cache = createIntlCache();
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const preloadLocale = async (): Promise<void> => {
   const bestLocale = getBestLocale();
   const selectedLocale = useLocaleStore.getState().selectedLocale;
