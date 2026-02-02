@@ -103,6 +103,7 @@ const ConsolePersonalTokensTokenIdRoute =
   } as any)
 
 export interface FileRoutesByFullPath {
+  '/': typeof ConsoleIndexRoute
   '/callback': typeof CallbackRoute
   '/auditing': typeof ConsoleAuditingRoute
   '/moderation': typeof ConsoleModerationRoute
@@ -110,14 +111,14 @@ export interface FileRoutesByFullPath {
   '/registration-tokens': typeof ConsoleRegistrationTokensRouteWithChildren
   '/rooms': typeof ConsoleRoomsRouteWithChildren
   '/users': typeof ConsoleUsersRouteWithChildren
-  '/': typeof ConsoleIndexRoute
   '/personal-tokens/$tokenId': typeof ConsolePersonalTokensTokenIdRoute
   '/registration-tokens/$tokenId': typeof ConsoleRegistrationTokensTokenIdRoute
   '/rooms/$roomId': typeof ConsoleRoomsRoomIdRoute
   '/users/$userId': typeof ConsoleUsersUserIdRoute
-  '/login': typeof AuthLoginIndexRoute
+  '/login/': typeof AuthLoginIndexRoute
 }
 export interface FileRoutesByTo {
+  '/': typeof ConsoleIndexRoute
   '/callback': typeof CallbackRoute
   '/auditing': typeof ConsoleAuditingRoute
   '/moderation': typeof ConsoleModerationRoute
@@ -125,7 +126,6 @@ export interface FileRoutesByTo {
   '/registration-tokens': typeof ConsoleRegistrationTokensRouteWithChildren
   '/rooms': typeof ConsoleRoomsRouteWithChildren
   '/users': typeof ConsoleUsersRouteWithChildren
-  '/': typeof ConsoleIndexRoute
   '/personal-tokens/$tokenId': typeof ConsolePersonalTokensTokenIdRoute
   '/registration-tokens/$tokenId': typeof ConsoleRegistrationTokensTokenIdRoute
   '/rooms/$roomId': typeof ConsoleRoomsRoomIdRoute
@@ -153,6 +153,7 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
+    | '/'
     | '/callback'
     | '/auditing'
     | '/moderation'
@@ -160,14 +161,14 @@ export interface FileRouteTypes {
     | '/registration-tokens'
     | '/rooms'
     | '/users'
-    | '/'
     | '/personal-tokens/$tokenId'
     | '/registration-tokens/$tokenId'
     | '/rooms/$roomId'
     | '/users/$userId'
-    | '/login'
+    | '/login/'
   fileRoutesByTo: FileRoutesByTo
   to:
+    | '/'
     | '/callback'
     | '/auditing'
     | '/moderation'
@@ -175,7 +176,6 @@ export interface FileRouteTypes {
     | '/registration-tokens'
     | '/rooms'
     | '/users'
-    | '/'
     | '/personal-tokens/$tokenId'
     | '/registration-tokens/$tokenId'
     | '/rooms/$roomId'
@@ -218,14 +218,14 @@ declare module '@tanstack/react-router' {
     '/_console': {
       id: '/_console'
       path: ''
-      fullPath: ''
+      fullPath: '/'
       preLoaderRoute: typeof ConsoleRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_auth': {
       id: '/_auth'
       path: ''
-      fullPath: ''
+      fullPath: '/'
       preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
@@ -281,7 +281,7 @@ declare module '@tanstack/react-router' {
     '/_auth/login/': {
       id: '/_auth/login/'
       path: '/login'
-      fullPath: '/login'
+      fullPath: '/login/'
       preLoaderRoute: typeof AuthLoginIndexRouteImport
       parentRoute: typeof AuthRoute
     }
