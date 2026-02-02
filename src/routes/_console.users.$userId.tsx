@@ -809,7 +809,7 @@ function SetPasswordButton({
   // validation on the second input (if there is anything there), so that the
   // 'password match/don't match' gets updated
   const onPasswordInput = useCallback(
-    (_event: React.ChangeEvent<HTMLInputElement>) => {
+    (_event: React.InputEvent<HTMLInputElement>) => {
       if (otherPasswordRef.current && otherPasswordRef.current.value) {
         otherPasswordRef.current.reportValidity();
       }

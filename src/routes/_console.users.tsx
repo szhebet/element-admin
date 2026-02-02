@@ -275,8 +275,8 @@ const UserAddButton: React.FC<UserAddButtonProps> = ({
   );
 
   const onLocalpartInput = useCallback(
-    (event: React.ChangeEvent<HTMLInputElement>) => {
-      setLocalpart(event.target.value);
+    (event: React.InputEvent<HTMLInputElement>) => {
+      setLocalpart(event.currentTarget.value);
     },
     [setLocalpart],
   );
@@ -513,8 +513,8 @@ function RouteComponent() {
   );
 
   const onSearch = useCallback(
-    (event: React.ChangeEvent<HTMLInputElement>) => {
-      debouncedSearch(event.target.value);
+    (event: React.InputEvent<HTMLInputElement>) => {
+      debouncedSearch(event.currentTarget.value);
     },
     [debouncedSearch],
   );

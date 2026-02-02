@@ -156,7 +156,7 @@ export const UserPicker = ({
   );
 
   const onSearchInput = useCallback(
-    (event: React.ChangeEvent<HTMLInputElement>) => {
+    (event: React.InputEvent<HTMLInputElement>) => {
       event.preventDefault();
       const newValue = event.currentTarget.value;
       setUserSearch(newValue);

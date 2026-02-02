@@ -7,7 +7,7 @@ import { useDebouncedState } from "@tanstack/react-pacer";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { createFileRoute } from "@tanstack/react-router";
 import { Form, InlineSpinner } from "@vector-im/compound-web";
-import { type ChangeEvent, useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { defineMessage, FormattedMessage } from "react-intl";
 import * as v from "valibot";
 
@@ -50,9 +50,9 @@ function RouteComponent() {
     );
 
   const handleServerNameChange = useCallback(
-    (event: ChangeEvent<HTMLInputElement>) => {
+    (event: React.InputEvent<HTMLInputElement>) => {
       event.preventDefault();
-      const newServerName = event.target.value.toLowerCase().trim();
+      const newServerName = event.currentTarget.value.toLowerCase().trim();
       setServerName(newServerName);
       setDebouncedServerName(newServerName);
     },
@@ -180,7 +180,7 @@ function RouteComponent() {
         <Form.TextControl
           value={serverName}
           readOnly={config.serverName !== null}
-          onChange={handleServerNameChange}
+          onInput={handleServerNameChange}
           autoCapitalize="none"
           type="text"
           size={1}
