@@ -86,10 +86,7 @@ export default defineConfig(
       ],
 
       // React Refresh
-      "react-refresh/only-export-components": [
-        "warn",
-        { allowConstantExport: true },
-      ],
+      "react-refresh/only-export-components": "off",
 
       // Unicorn
       "unicorn/filename-case": [
