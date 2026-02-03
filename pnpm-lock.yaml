@@ -69,8 +69,8 @@ importers:
         specifier: 2.6.0
         version: 2.6.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react-intl:
-        specifier: 8.1.2
-        version: 8.1.2(@types/react@19.2.10)(react@19.2.4)(typescript@5.9.3)
+        specifier: 8.1.3
+        version: 8.1.3(@types/react@19.2.10)(react@19.2.4)(typescript@5.9.3)
       semver:
         specifier: 7.7.3
         version: 7.7.3
@@ -94,8 +94,8 @@ importers:
         specifier: 9.39.2
         version: 9.39.2
       '@formatjs/cli':
-        specifier: 6.12.1
-        version: 6.12.1
+        specifier: 6.12.2
+        version: 6.12.2
       '@hey-api/openapi-ts':
         specifier: 0.91.1
         version: 0.91.1(typescript@5.9.3)
@@ -154,8 +154,8 @@ importers:
         specifier: 5.1.3
         version: 5.1.3(vite@7.3.1(@types/node@25.2.0)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.21.0)(yaml@2.8.2))
       babel-plugin-formatjs:
-        specifier: 11.2.2
-        version: 11.2.2
+        specifier: 11.2.3
+        version: 11.2.3
       babel-plugin-react-compiler:
         specifier: 19.1.0-rc.3
         version: 19.1.0-rc.3
@@ -178,8 +178,8 @@ importers:
         specifier: 6.1.0
         version: 6.1.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-formatjs:
-        specifier: 6.1.2
-        version: 6.1.2(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+        specifier: 6.1.3
+        version: 6.1.3(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-import-x:
         specifier: 4.16.1
         version: 4.16.1(@typescript-eslint/utils@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))
@@ -605,8 +605,8 @@ packages:
   '@fontsource/inter@5.2.8':
     resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
 
-  '@formatjs/cli@6.12.1':
-    resolution: {integrity: sha512-fHCOP6N34gq6JIQ0iOMn8T+fV0uVSu0x4qHGf07xHIhJOpq61iuj+CMhAK2ikZBsjmDW6s/3eoQzJ2v9Vgp8Gw==}
+  '@formatjs/cli@6.12.2':
+    resolution: {integrity: sha512-y215aarLZXei3u1WDRAiet/VajgvUXzvz4ifPENDSPXfIog0aBJKtFvIU7EWbcFWy7rstbn5GcwwQW4F1G3TJg==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -656,8 +656,8 @@ packages:
       typescript:
         optional: true
 
-  '@formatjs/ts-transformer@4.3.2':
-    resolution: {integrity: sha512-MRd0eBpg+uPNI7bvTrjil+vAhR/sEScAhtV0kkZyHdDATSdCcfOdjS7Gbzr3TRP38OWVJnpWDiEVOgSPwnmbVg==}
+  '@formatjs/ts-transformer@4.3.3':
+    resolution: {integrity: sha512-jXh2NRP1wwYt57KAHaMiI8qZ6m6HFkPSOuAoVbOIzI+cP4++X1CVAtoQhTdEAyHhn04T4IyMdsFIGjYvtTZSAA==}
     peerDependencies:
       ts-jest: ^29
     peerDependenciesMeta:
@@ -2130,8 +2130,8 @@ packages:
   babel-dead-code-elimination@1.0.12:
     resolution: {integrity: sha512-GERT7L2TiYcYDtYk1IpD+ASAYXjKbLTDPhBtYj7X1NuRMDTMtAx9kyBenub1Ev41lo91OHCKdmP+egTDmfQ7Ig==}
 
-  babel-plugin-formatjs@11.2.2:
-    resolution: {integrity: sha512-ty7ZNA9QZjdwsCdJr92Qw5Pr7gNKWa/SgkVhuZjV31Ufnf1cDN0nl+yRaajX08C8MZPmRTZvnv8+NUD72n9R3g==}
+  babel-plugin-formatjs@11.2.3:
+    resolution: {integrity: sha512-M3XGQ5DknIVc3S7UOFrSWtgTh9uUwZcHCQDSfkrVyV8+GICD1wxCapOAA6yWmeMw52Vh8N/i1/VvANhk3T7gkw==}
 
   babel-plugin-react-compiler@19.1.0-rc.3:
     resolution: {integrity: sha512-mjRn69WuTz4adL0bXGx8Rsyk1086zFJeKmes6aK0xPuK3aaXmDJdLHqwKKMrpm6KAI1MCoUK72d2VeqQbu8YIA==}
@@ -2528,8 +2528,8 @@ packages:
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-plugin-formatjs@6.1.2:
-    resolution: {integrity: sha512-Z4BAjvtvGoNepuUz8SVdAXTR+Y+TvH7hr/aTmu6eAKoqhNRAM2Ww8xYqwrnmjWCmzqka99XXaQf1LuG/uj9WRA==}
+  eslint-plugin-formatjs@6.1.3:
+    resolution: {integrity: sha512-JZnRP76EZAfbVFluNuK5hM2AlxlsYkgjZRkMoUq+QXobCuCs3AQ7ywlRVn1ni+Os14ccPuv44o6LRw7dlW/32A==}
     peerDependencies:
       eslint: '9'
 
@@ -3528,11 +3528,11 @@ packages:
       react: '>=16'
       react-dom: '>=16'
 
-  react-intl@8.1.2:
-    resolution: {integrity: sha512-mwjljlxC1dpU7G6cznkxMWtYuKZruSNSVHZjiIWfYW6aNsHNDvDWDK54rM8yoF86asNLpk4Y3HxcWhX1AslTGg==}
+  react-intl@8.1.3:
+    resolution: {integrity: sha512-eL1/d+uQdnapirynOGAriW0K9uAoyarjRGL3V9LaTRuohNSvPgCfJX06EZl5M52h/Hu7Gz7A1sD7dNHcos1lNg==}
     peerDependencies:
-      '@types/react': ^19.2.8
-      react: 16 || 17 || 18 || 19
+      '@types/react': '19'
+      react: '19'
       typescript: ^5.6.0
     peerDependenciesMeta:
       typescript:
@@ -4516,7 +4516,7 @@ snapshots:
 
   '@fontsource/inter@5.2.8': {}
 
-  '@formatjs/cli@6.12.1': {}
+  '@formatjs/cli@6.12.2': {}
 
   '@formatjs/ecma402-abstract@3.1.1':
     dependencies:
@@ -4555,7 +4555,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  '@formatjs/ts-transformer@4.3.2':
+  '@formatjs/ts-transformer@4.3.3':
     dependencies:
       '@formatjs/icu-messageformat-parser': 3.5.1
       '@types/node': 22.19.7
@@ -5960,7 +5960,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-formatjs@11.2.2:
+  babel-plugin-formatjs@11.2.3:
     dependencies:
       '@babel/core': 7.29.0
       '@babel/helper-plugin-utils': 7.28.6
@@ -5968,7 +5968,7 @@ snapshots:
       '@babel/traverse': 7.29.0
       '@babel/types': 7.29.0
       '@formatjs/icu-messageformat-parser': 3.5.1
-      '@formatjs/ts-transformer': 4.3.2
+      '@formatjs/ts-transformer': 4.3.3
       '@types/babel__core': 7.20.5
       '@types/babel__helper-plugin-utils': 7.10.3
       '@types/babel__traverse': 7.28.0
@@ -6441,10 +6441,10 @@ snapshots:
       lodash.memoize: 4.1.2
       semver: 7.7.3
 
-  eslint-plugin-formatjs@6.1.2(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
+  eslint-plugin-formatjs@6.1.3(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
       '@formatjs/icu-messageformat-parser': 3.5.1
-      '@formatjs/ts-transformer': 4.3.2
+      '@formatjs/ts-transformer': 4.3.3
       '@types/picomatch': 4.0.2
       '@typescript-eslint/utils': 8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@unicode/unicode-17.0.0': 1.6.16
@@ -7490,7 +7490,7 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  react-intl@8.1.2(@types/react@19.2.10)(react@19.2.4)(typescript@5.9.3):
+  react-intl@8.1.3(@types/react@19.2.10)(react@19.2.4)(typescript@5.9.3):
     dependencies:
       '@formatjs/ecma402-abstract': 3.1.1
       '@formatjs/icu-messageformat-parser': 3.5.1
