@@ -83,11 +83,11 @@
   "marketing.auditing.title": {
     "message": "Auditing"
   },
-  "marketing.moderation.description": {
-    "message": "<p>Moderation enables an organisation to administer all rooms from a central point. A ‘moderator’ account will join defined rooms with room admin privileges. Server administrators can seamlessly impersonate the account from the admin console to manage and moderate their rooms.</p> <ul> <li>Manage rooms and their settings (name, topic, permissions, etc.)</li> <li>Manage room memberships</li> <li>Remove unwanted messages and uploaded media</li> <li>Recover abandoned rooms (all users have left)</li> <li>Moderator account can or cannot read encrypted message contents (configurable)</li> </ul>"
+  "marketing.supervision.description": {
+    "message": "<p>Supervision enables an organisation to administer all rooms from a central point. A 'supervisor' account will join defined rooms with room admin privileges. Server administrators can seamlessly impersonate the account from the admin console to manage and supervise their rooms.</p> <ul> <li>Manage rooms and their settings (name, topic, permissions, etc.)</li> <li>Manage room memberships</li> <li>Remove unwanted messages and uploaded media</li> <li>Recover abandoned rooms (all users have left)</li> <li>Supervisor account can or cannot read encrypted message contents (configurable)</li> </ul>"
   },
-  "marketing.moderation.title": {
-    "message": "Moderation"
+  "marketing.supervision.title": {
+    "message": "Supervision"
   },
   "navigation.auditing": {
     "message": "Auditing"
@@ -98,9 +98,6 @@
   "navigation.documentation": {
     "message": "Dokumentasjon"
   },
-  "navigation.moderation": {
-    "message": "Moderation"
-  },
   "navigation.personal_tokens": {
     "message": "Personlige tokens"
   },
@@ -109,6 +106,9 @@
   },
   "navigation.rooms": {
     "message": "Rom"
+  },
+  "navigation.supervision": {
+    "message": "Supervision"
   },
   "navigation.users": {
     "message": "Brukere"
@@ -181,57 +181,6 @@
   },
   "pages.login.title": {
     "message": "Logg inn"
-  },
-  "pages.moderation.description": {
-    "message": "Sign in as <b>{mxid}</b> to perform administrative actions in any room."
-  },
-  "pages.moderation.disabled_alert.description": {
-    "message": "This feature is part of your subscription. You can ask an administrator to enable it."
-  },
-  "pages.moderation.disabled_alert.title": {
-    "message": "Moderation is currently disabled"
-  },
-  "pages.moderation.errors.cant_open.description": {
-    "message": "Your browser is blocking the opening of pop-up windows. Please make sure you allow pop-ups from this site."
-  },
-  "pages.moderation.errors.cant_open.title": {
-    "message": "Failed to open the moderation interface in a new window"
-  },
-  "pages.moderation.errors.closed.description": {
-    "message": "Failed to sign in the moderation interface, as it closed before it could finish signing in"
-  },
-  "pages.moderation.errors.closed.title": {
-    "message": "The moderation interface was closed too quickly"
-  },
-  "pages.moderation.errors.generic.title": {
-    "message": "An unexpected error occurred whilst opening the moderation interface"
-  },
-  "pages.moderation.missing_ui_address.description": {
-    "message": "Moderation is enabled in your deployment, but not Element Web, which is required for the moderation interface to work."
-  },
-  "pages.moderation.missing_ui_address.title": {
-    "message": "The moderation interface requires Element Web to be enabled"
-  },
-  "pages.moderation.recovery_key.copied": {
-    "message": "Recovery key copied"
-  },
-  "pages.moderation.recovery_key.copy_failed": {
-    "message": "Could not copy recovery key"
-  },
-  "pages.moderation.recovery_key.help": {
-    "message": "This is the recovery key used to enable reading encrypted messages."
-  },
-  "pages.moderation.recovery_key.label": {
-    "message": "Recovery key"
-  },
-  "pages.moderation.title": {
-    "message": "Moderation"
-  },
-  "pages.moderation.unavailable_alert.description": {
-    "message": "This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
-  },
-  "pages.moderation.unavailable_alert.title": {
-    "message": "Moderation is a feature available in ESS Pro"
   },
   "pages.personal_tokens.acting_user_column": {
     "message": "Acting User"
@@ -417,7 +366,7 @@
     "message": "Revoked"
   },
   "pages.personal_tokens.title": {
-    "message": "Personal tokens"
+    "message": "Personlige tokens"
   },
   "pages.personal_tokens.token_created_description": {
     "message": "Your personal token has been created. Copy it now as it will not be shown again."
@@ -640,6 +589,57 @@
   },
   "pages.rooms.title": {
     "message": "Rom"
+  },
+  "pages.supervision.description": {
+    "message": "Sign in as <b>{mxid}</b> to perform administrative actions in any room."
+  },
+  "pages.supervision.disabled_alert.description": {
+    "message": "This feature is part of your subscription. You can ask an administrator to enable it."
+  },
+  "pages.supervision.disabled_alert.title": {
+    "message": "Supervision is currently disabled"
+  },
+  "pages.supervision.errors.cant_open.description": {
+    "message": "Your browser is blocking the opening of pop-up windows. Please make sure you allow pop-ups from this site."
+  },
+  "pages.supervision.errors.cant_open.title": {
+    "message": "Failed to open the supervision interface in a new window"
+  },
+  "pages.supervision.errors.closed.description": {
+    "message": "Failed to sign in the supervision interface, as it closed before it could finish signing in"
+  },
+  "pages.supervision.errors.closed.title": {
+    "message": "The supervision interface was closed too quickly"
+  },
+  "pages.supervision.errors.generic.title": {
+    "message": "An unexpected error occurred whilst opening the supervision interface"
+  },
+  "pages.supervision.missing_ui_address.description": {
+    "message": "Supervision is enabled in your deployment, but not Element Web, which is required for the supervision interface to work."
+  },
+  "pages.supervision.missing_ui_address.title": {
+    "message": "The supervision interface requires Element Web to be enabled"
+  },
+  "pages.supervision.recovery_key.copied": {
+    "message": "Recovery key copied"
+  },
+  "pages.supervision.recovery_key.copy_failed": {
+    "message": "Could not copy recovery key"
+  },
+  "pages.supervision.recovery_key.help": {
+    "message": "This is the recovery key used to enable reading encrypted messages."
+  },
+  "pages.supervision.recovery_key.label": {
+    "message": "Recovery key"
+  },
+  "pages.supervision.title": {
+    "message": "Supervision"
+  },
+  "pages.supervision.unavailable_alert.description": {
+    "message": "This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
+  },
+  "pages.supervision.unavailable_alert.title": {
+    "message": "Supervision is a feature available in ESS Pro"
   },
   "pages.users.add_email.button": {
     "message": "Legg til e-postadresse"

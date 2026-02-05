@@ -306,7 +306,7 @@
       "value": "Audit"
     }
   ],
-  "marketing.moderation.description": [
+  "marketing.supervision.description": [
     {
       "children": [
         {
@@ -402,7 +402,7 @@
       "value": "ul"
     }
   ],
-  "marketing.moderation.title": [
+  "marketing.supervision.title": [
     {
       "type": 0,
       "value": "Modération"
@@ -426,12 +426,6 @@
       "value": "Documentation"
     }
   ],
-  "navigation.moderation": [
-    {
-      "type": 0,
-      "value": "Modération"
-    }
-  ],
   "navigation.personal_tokens": [
     {
       "type": 0,
@@ -448,6 +442,12 @@
     {
       "type": 0,
       "value": "Salons"
+    }
+  ],
+  "navigation.supervision": [
+    {
+      "type": 0,
+      "value": "Modération"
     }
   ],
   "navigation.users": [
@@ -600,122 +600,6 @@
     {
       "type": 0,
       "value": "Connexion"
-    }
-  ],
-  "pages.moderation.description": [
-    {
-      "type": 0,
-      "value": "Veuillez vous connecter en tant que "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "mxid"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " pour effectuer des actions administratives dans n'importe quel salon."
-    }
-  ],
-  "pages.moderation.disabled_alert.description": [
-    {
-      "type": 0,
-      "value": "Cette fonctionnalité est incluse dans votre souscription. Vous pouvez demander à un administrateur de l'activer."
-    }
-  ],
-  "pages.moderation.disabled_alert.title": [
-    {
-      "type": 0,
-      "value": "La modération est actuellement désactivée."
-    }
-  ],
-  "pages.moderation.errors.cant_open.description": [
-    {
-      "type": 0,
-      "value": "Votre navigateur bloque l'ouverture des fenêtres pop-up. Veuillez vous assurer que vous autorisez les fenêtres pop-up provenant de ce site."
-    }
-  ],
-  "pages.moderation.errors.cant_open.title": [
-    {
-      "type": 0,
-      "value": "Impossible d'ouvrir l'interface de modération dans une nouvelle fenêtre"
-    }
-  ],
-  "pages.moderation.errors.closed.description": [
-    {
-      "type": 0,
-      "value": "Impossible de se connecter à l'interface de modération, car celle-ci s'est fermée avant la fin de la connexion."
-    }
-  ],
-  "pages.moderation.errors.closed.title": [
-    {
-      "type": 0,
-      "value": "L'interface de modération a été fermée prématurément."
-    }
-  ],
-  "pages.moderation.errors.generic.title": [
-    {
-      "type": 0,
-      "value": "Une erreur inattendue s'est produite lors de l'ouverture de l'interface de modération."
-    }
-  ],
-  "pages.moderation.missing_ui_address.description": [
-    {
-      "type": 0,
-      "value": "La modération est activée dans votre déploiement, mais pas Element Web, qui est nécessaire au fonctionnement de l'interface de modération."
-    }
-  ],
-  "pages.moderation.missing_ui_address.title": [
-    {
-      "type": 0,
-      "value": "L'interface de modération nécessite qu'Element Web soit activé."
-    }
-  ],
-  "pages.moderation.recovery_key.copied": [
-    {
-      "type": 0,
-      "value": "Clé de récupération copiée"
-    }
-  ],
-  "pages.moderation.recovery_key.copy_failed": [
-    {
-      "type": 0,
-      "value": "Impossible de copier la clé de récupération"
-    }
-  ],
-  "pages.moderation.recovery_key.help": [
-    {
-      "type": 0,
-      "value": "Il s'agit de la clé de récupération utilisée pour permettre la lecture des messages chiffrés."
-    }
-  ],
-  "pages.moderation.recovery_key.label": [
-    {
-      "type": 0,
-      "value": "Clé de récupération"
-    }
-  ],
-  "pages.moderation.title": [
-    {
-      "type": 0,
-      "value": "Modération"
-    }
-  ],
-  "pages.moderation.unavailable_alert.description": [
-    {
-      "type": 0,
-      "value": "Cette fonctionnalité n'est pas disponible dans ESS Community. Passez à ESS Pro pour l'activer."
-    }
-  ],
-  "pages.moderation.unavailable_alert.title": [
-    {
-      "type": 0,
-      "value": "La modération est une fonctionnalité disponible dans ESS Pro"
     }
   ],
   "pages.personal_tokens.acting_user_column": [
@@ -1747,6 +1631,122 @@
     {
       "type": 0,
       "value": "Salons"
+    }
+  ],
+  "pages.supervision.description": [
+    {
+      "type": 0,
+      "value": "Veuillez vous connecter en tant que "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "mxid"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " pour effectuer des actions administratives dans n'importe quel salon."
+    }
+  ],
+  "pages.supervision.disabled_alert.description": [
+    {
+      "type": 0,
+      "value": "Cette fonctionnalité est incluse dans votre souscription. Vous pouvez demander à un administrateur de l'activer."
+    }
+  ],
+  "pages.supervision.disabled_alert.title": [
+    {
+      "type": 0,
+      "value": "La modération est actuellement désactivée."
+    }
+  ],
+  "pages.supervision.errors.cant_open.description": [
+    {
+      "type": 0,
+      "value": "Votre navigateur bloque l'ouverture des fenêtres pop-up. Veuillez vous assurer que vous autorisez les fenêtres pop-up provenant de ce site."
+    }
+  ],
+  "pages.supervision.errors.cant_open.title": [
+    {
+      "type": 0,
+      "value": "Impossible d'ouvrir l'interface de modération dans une nouvelle fenêtre"
+    }
+  ],
+  "pages.supervision.errors.closed.description": [
+    {
+      "type": 0,
+      "value": "Impossible de se connecter à l'interface de modération, car celle-ci s'est fermée avant la fin de la connexion."
+    }
+  ],
+  "pages.supervision.errors.closed.title": [
+    {
+      "type": 0,
+      "value": "L'interface de modération a été fermée prématurément."
+    }
+  ],
+  "pages.supervision.errors.generic.title": [
+    {
+      "type": 0,
+      "value": "Une erreur inattendue s'est produite lors de l'ouverture de l'interface de modération."
+    }
+  ],
+  "pages.supervision.missing_ui_address.description": [
+    {
+      "type": 0,
+      "value": "La modération est activée dans votre déploiement, mais pas Element Web, qui est nécessaire au fonctionnement de l'interface de modération."
+    }
+  ],
+  "pages.supervision.missing_ui_address.title": [
+    {
+      "type": 0,
+      "value": "L'interface de modération nécessite qu'Element Web soit activé."
+    }
+  ],
+  "pages.supervision.recovery_key.copied": [
+    {
+      "type": 0,
+      "value": "Clé de récupération copiée"
+    }
+  ],
+  "pages.supervision.recovery_key.copy_failed": [
+    {
+      "type": 0,
+      "value": "Impossible de copier la clé de récupération"
+    }
+  ],
+  "pages.supervision.recovery_key.help": [
+    {
+      "type": 0,
+      "value": "Il s'agit de la clé de récupération utilisée pour permettre la lecture des messages chiffrés."
+    }
+  ],
+  "pages.supervision.recovery_key.label": [
+    {
+      "type": 0,
+      "value": "Clé de récupération"
+    }
+  ],
+  "pages.supervision.title": [
+    {
+      "type": 0,
+      "value": "Modération"
+    }
+  ],
+  "pages.supervision.unavailable_alert.description": [
+    {
+      "type": 0,
+      "value": "Cette fonctionnalité n'est pas disponible dans ESS Community. Passez à ESS Pro pour l'activer."
+    }
+  ],
+  "pages.supervision.unavailable_alert.title": [
+    {
+      "type": 0,
+      "value": "La modération est une fonctionnalité disponible dans ESS Pro"
     }
   ],
   "pages.users.add_email.button": [

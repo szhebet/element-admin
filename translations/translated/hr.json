@@ -1,0 +1,929 @@
+{
+  "action.add": {
+    "message": "Dodaj"
+  },
+  "action.cancel": {
+    "message": "Otkaži"
+  },
+  "action.clear": {
+    "message": "Očisti"
+  },
+  "action.close": {
+    "message": "Zatvori"
+  },
+  "action.copy": {
+    "message": "Kopiraj"
+  },
+  "action.delete": {
+    "message": "Izbriši"
+  },
+  "action.go_back": {
+    "message": "Idi natrag"
+  },
+  "action.remove": {
+    "message": "Ukloni"
+  },
+  "action.retry": {
+    "message": "Pokušaj ponovno"
+  },
+  "action.sign_in": {
+    "message": "Prijava"
+  },
+  "action.sign_out": {
+    "message": "Odjava"
+  },
+  "common.email_address": {
+    "message": "E-adresa"
+  },
+  "common.filter": {
+    "message": "Filtriraj"
+  },
+  "errors.http_fetch": {
+    "message": "Zahtjev za {url} nije uspio"
+  },
+  "errors.http_fetch_json_decoding": {
+    "message": "Nije uspjelo dekodiranje JSON odgovora od {url}"
+  },
+  "errors.http_status": {
+    "message": "Zahtjev za {url} nije uspio sa statusnim kodom {status} {statusText}"
+  },
+  "errors.matrix_standard": {
+    "message": "Zahtjev matičnom poslužitelju nije uspio s kodom pogreške {errorCode}. Osim toga, poslužitelj je dao sljedeću poruku o pogrešci: {errorMessage}"
+  },
+  "errors.not_logged_in": {
+    "message": "Korisnik nije prijavljen"
+  },
+  "footer.copyright_notice": {
+    "message": "Autorsko pravo © {now, date, ::yyyy}"
+  },
+  "footer.help_and_support": {
+    "message": "Pomoć i podrška"
+  },
+  "footer.legal": {
+    "message": "Pravne napomene"
+  },
+  "footer.privacy": {
+    "message": "Privatnost"
+  },
+  "header.user_menu.title": {
+    "message": "Izbornik računa"
+  },
+  "marketing.also_available_in_pro.description": {
+    "message": "<p><link>ESS Pro</link> komercijalna je pozadinska distribucija tvrtke Element.</p> <p>Uključuje sve što nudi ESS Community, a i dodatne značajke i usluge prilagođene profesionalnim okruženjima s više od 100 korisnika pa sve do masovnih sustava s milijunima korisnika.</p> <p>Dizajniran je tako da podrži zahtjeve velikih organizacija u pogledu naprednog IAM-a, usklađenosti, skalabilnosti, visoke dostupnosti i rada s više odvojenih zakupaca.</p>"
+  },
+  "marketing.also_available_in_pro.title": {
+    "message": "Također dostupno u inačici Pro…"
+  },
+  "marketing.also_available_in_pro.upgrade": {
+    "message": "Nadogradi na Pro"
+  },
+  "marketing.auditing.description": {
+    "message": "<p>Revizija organizacijama omogućuje vođenje evidencije o sveobuhvatno šifriranim razgovorima i događajima u sobama kako bi se ispunili zahtjevi usklađenosti ili udovoljilo zakonskim propisima.</p> <p>Kada je ova značajka omogućena, svim je krajnjim korisnicima vidljivo koje se sobe snimaju kako bi se osigurala transparentnost procesa revizije.</p> <p>Revizija se može konfigurirati tako da odgovara specifičnim zahtjevima organizacije. Na primjer, izravne poruke između dvije osobe mogu se isključiti tako da se snimaju samo grupni razgovori.</p> <p>Podatci revizije pohranjuju se kao niz strojno čitljivih događaja u JSON obliku na lokalnoj pohrani ili S3 servisu te se mogu proslijediti alatima za analizu zapisnika radi daljnjeg filtriranja i obrade.</p>"
+  },
+  "marketing.auditing.title": {
+    "message": "Revizija"
+  },
+  "marketing.supervision.description": {
+    "message": "<p>Moderiranje omogućuje organizaciji upravljanje svim sobama s jedne središnje točke. Moderatorski račun pridružit će se definiranim sobama s administratorskim ovlastima. Administratori poslužitelja mogu se neprimjetno prijaviti u ime tog računa putem administratorske konzole kako bi upravljali svojim sobama i moderirali ih.</p> <ul> <li>Upravljanje sobama i njihovim postavkama (naziv, tema, dopuštenja itd.)</li> <li>Upravljanje članstvom u sobama</li> <li>Uklanjanje neželjenih poruka i prenesenih medija</li> <li>Vraćanje napuštene sobe (svi korisnici su otišli)</li> <li>Moderatorski račun može ili ne može čitati sadržaj šifriranih poruka (podesivo)</li> </ul>"
+  },
+  "marketing.supervision.title": {
+    "message": "Moderiranje"
+  },
+  "navigation.auditing": {
+    "message": "Revizija"
+  },
+  "navigation.dashboard": {
+    "message": "Nadzorna ploča"
+  },
+  "navigation.documentation": {
+    "message": "Dokumentacija"
+  },
+  "navigation.personal_tokens": {
+    "message": "Osobni tokeni"
+  },
+  "navigation.registration_tokens": {
+    "message": "Registracijski tokeni"
+  },
+  "navigation.rooms": {
+    "message": "Sobe"
+  },
+  "navigation.supervision": {
+    "message": "Moderiranje"
+  },
+  "navigation.users": {
+    "message": "Korisnici"
+  },
+  "pages.auditing.title": {
+    "message": "Revizija"
+  },
+  "pages.auditing.unavailable_alert.description": {
+    "message": "Ova značajka nije dostupna u inačici ESS Community. Nadogradite na ESS Pro kako biste je omogućili."
+  },
+  "pages.auditing.unavailable_alert.title": {
+    "message": "Revizija je značajka dostupna u inačici ESS Pro"
+  },
+  "pages.dashboard.current_ess_version": {
+    "message": "Inačica ESS-a"
+  },
+  "pages.dashboard.latest_ess_version": {
+    "message": "Najnovija inačica ESS-a"
+  },
+  "pages.dashboard.new_ess_release": {
+    "message": "(Novo izdanje)"
+  },
+  "pages.dashboard.registered_users_count": {
+    "message": "Registrirani korisnici"
+  },
+  "pages.dashboard.rooms_count": {
+    "message": "Ukupno soba"
+  },
+  "pages.dashboard.running_latest_ess": {
+    "message": "(Upotrebljavate najnoviju inačicu)"
+  },
+  "pages.dashboard.synapse_version": {
+    "message": "Inačica Synapse"
+  },
+  "pages.dashboard.title": {
+    "message": "Nadzorna ploča"
+  },
+  "pages.generic_error.go_home": {
+    "message": "Idi na početnu stranicu"
+  },
+  "pages.generic_error.sign_out_and_reload": {
+    "message": "Odjavi se i ponovno prijavi"
+  },
+  "pages.generic_error.technical_details.item": {
+    "message": "{name}: {message}"
+  },
+  "pages.generic_error.text": {
+    "message": "To može biti posljedica pogreške ili nemogućnosti povezivanja s matičnim poslužiteljem. Možete ponovno pokušati učitati stranicu, vratiti se na prethodnu stranicu ili sve poništiti i vratiti se na početnu stranicu."
+  },
+  "pages.generic_error.title": {
+    "message": "Došlo je do neočekivane pogreške"
+  },
+  "pages.landing.description": {
+    "message": "Upravljajte implementacijom aplikacije Element za svoju organizaciju ili zajednicu."
+  },
+  "pages.login.errors.no_auth_metadata": {
+    "message": "Nije uspjelo učitavanje metapodataka za provjeru autentičnosti poslužitelja. Synapse možda nije dostupan ili nije konfiguriran za korištenje usluge Matrix Authentication Service."
+  },
+  "pages.login.errors.no_client_metadata": {
+    "message": "Registracija klijenta nije uspjela. Matrix Authentication Service možda nije dostupan ili je pogrešno konfiguriran."
+  },
+  "pages.login.errors.no_well_known": {
+    "message": "Nije uspjelo učitavanje dobro poznatog dokumenta poslužitelja. Naziv poslužitelja možda nije valjan."
+  },
+  "pages.login.get_started": {
+    "message": "Započni autorizaciju"
+  },
+  "pages.login.server_name": {
+    "message": "Naziv poslužitelja"
+  },
+  "pages.login.title": {
+    "message": "Prijava"
+  },
+  "pages.personal_tokens.acting_user_column": {
+    "message": "Korisnik-izvršitelj"
+  },
+  "pages.personal_tokens.acting_user_label": {
+    "message": "Korisnik-izvršitelj"
+  },
+  "pages.personal_tokens.actor_user_help": {
+    "message": "Korisnik u čije ime će ovaj token djelovati"
+  },
+  "pages.personal_tokens.actor_user_label": {
+    "message": "Korisnik-izvršitelj"
+  },
+  "pages.personal_tokens.add_token_title": {
+    "message": "Dodaj osobni token"
+  },
+  "pages.personal_tokens.cant_regenerate_tooltip": {
+    "message": "Samo {ownerMxid} može ponovno generirati ovaj token"
+  },
+  "pages.personal_tokens.cant_regenerate_tooltip_generic": {
+    "message": "Samo vlasnik tokena može ga ponovno generirati"
+  },
+  "pages.personal_tokens.count": {
+    "message": "{count, plural, =0 {Nema osobnih tokena} one {# osobni token} other {# osobnih tokena}}"
+  },
+  "pages.personal_tokens.create_error": {
+    "message": "Nije uspjela izrada osobnog tokena"
+  },
+  "pages.personal_tokens.create_success": {
+    "message": "Osobni token uspješno je izrađen"
+  },
+  "pages.personal_tokens.create_token": {
+    "message": "Izradi token"
+  },
+  "pages.personal_tokens.created_at_label": {
+    "message": "Izrađen dana"
+  },
+  "pages.personal_tokens.description": {
+    "message": "Osobni tokeni dugotrajni su pristupni tokeni sa specifičnim pristupom, uključujući pristup Synapseovu i MAS-ovu administratorskom API-ju. Korisni su za automatizaciju zadataka i stvaranje integracija."
+  },
+  "pages.personal_tokens.device_id_help": {
+    "message": "Ostavite prazno za generiranje nasumičnih 10-znamenkastih ID-ova uređaja"
+  },
+  "pages.personal_tokens.device_id_label": {
+    "message": "ID uređaja"
+  },
+  "pages.personal_tokens.device_id_placeholder": {
+    "message": "ABCDEFGHIJ"
+  },
+  "pages.personal_tokens.expires_at_column": {
+    "message": "Istječe na"
+  },
+  "pages.personal_tokens.expires_at_label": {
+    "message": "Istječe dana"
+  },
+  "pages.personal_tokens.expires_in_help": {
+    "message": "Ostavite prazno za tokene koji nikada ne istječu"
+  },
+  "pages.personal_tokens.expires_in_label": {
+    "message": "Istječe za (dani)"
+  },
+  "pages.personal_tokens.expires_in_placeholder": {
+    "message": "30"
+  },
+  "pages.personal_tokens.filter.active": {
+    "message": "Aktivan"
+  },
+  "pages.personal_tokens.filter.expires": {
+    "message": "S datumom isteka"
+  },
+  "pages.personal_tokens.filter.no_expiry": {
+    "message": "Nikad ne istječe"
+  },
+  "pages.personal_tokens.filter.revoked": {
+    "message": "Opozvan"
+  },
+  "pages.personal_tokens.filter.scope_mas_admin": {
+    "message": "Pristup MAS-ovu administratorskom API-ju"
+  },
+  "pages.personal_tokens.filter.scope_matrix_client": {
+    "message": "Pristup Matrixovu Client-Server API-ju"
+  },
+  "pages.personal_tokens.filter.scope_synapse_admin": {
+    "message": "Pristup Synapseovu administratorskom API-ju"
+  },
+  "pages.personal_tokens.last_active_column": {
+    "message": "Posljednji put aktivan"
+  },
+  "pages.personal_tokens.last_active_ip_label": {
+    "message": "Posljednji aktivan IP"
+  },
+  "pages.personal_tokens.last_active_label": {
+    "message": "Posljednji aktivan"
+  },
+  "pages.personal_tokens.loading_more": {
+    "message": "U tijeku je učitavanje još tokena..."
+  },
+  "pages.personal_tokens.name_column": {
+    "message": "Naziv"
+  },
+  "pages.personal_tokens.name_help": {
+    "message": "Naziv tokena koji je čitljiv ljudima, kako biste ga lakše identificirali"
+  },
+  "pages.personal_tokens.name_label": {
+    "message": "Naziv tokena"
+  },
+  "pages.personal_tokens.name_placeholder": {
+    "message": "Token moje aplikacije"
+  },
+  "pages.personal_tokens.never_expires": {
+    "message": "Nikad ne istječe"
+  },
+  "pages.personal_tokens.never_used": {
+    "message": "Nikad nije korišten"
+  },
+  "pages.personal_tokens.not_found.description": {
+    "message": "Osobni token koji tražite ne postoji ili je uklonjen."
+  },
+  "pages.personal_tokens.not_found.title": {
+    "message": "Osobni token nije pronađen"
+  },
+  "pages.personal_tokens.owner_user_label": {
+    "message": "Vlasnik"
+  },
+  "pages.personal_tokens.regenerate_confirm": {
+    "message": "Ponovno generiraj token"
+  },
+  "pages.personal_tokens.regenerate_error": {
+    "message": "Nije uspjelo ponovno generiranje osobnog tokena"
+  },
+  "pages.personal_tokens.regenerate_expires_help": {
+    "message": "Ostavite prazno da biste zadržali isti rok trajanja kao i prije ili postavite novo vrijeme isteka"
+  },
+  "pages.personal_tokens.regenerate_success": {
+    "message": "Osobni token uspješno je ponovno generiran"
+  },
+  "pages.personal_tokens.regenerate_token": {
+    "message": "Ponovno generiraj token"
+  },
+  "pages.personal_tokens.regenerate_token_title": {
+    "message": "Ponovno generiraj osobni token"
+  },
+  "pages.personal_tokens.regenerate_warning": {
+    "message": "Ovim će se generirati novi pristupni token i poništiti trenutačni. Sve aplikacije koje upotrebljavaju trenutačni token morat će se ažurirati."
+  },
+  "pages.personal_tokens.revoke_success": {
+    "message": "Osobni token uspješno je opozvan"
+  },
+  "pages.personal_tokens.revoke_token": {
+    "message": "Opozovi token"
+  },
+  "pages.personal_tokens.revoked_at_label": {
+    "message": "Opozvan dana"
+  },
+  "pages.personal_tokens.scope_device_help": {
+    "message": "Priprema Matrixova uređaja"
+  },
+  "pages.personal_tokens.scope_mas_admin_help": {
+    "message": "Pristup MAS-ovu administratorskom API-ju"
+  },
+  "pages.personal_tokens.scope_matrix_client_help": {
+    "message": "Pristup Matrixovu Client-Server API-ju"
+  },
+  "pages.personal_tokens.scope_synapse_admin_help": {
+    "message": "Pristup Synapseovu administratorskom API-ju"
+  },
+  "pages.personal_tokens.scopes_label": {
+    "message": "Opsezi"
+  },
+  "pages.personal_tokens.status.active": {
+    "message": "Aktivan"
+  },
+  "pages.personal_tokens.status.column": {
+    "message": "Status"
+  },
+  "pages.personal_tokens.status.expired": {
+    "message": "Istekao"
+  },
+  "pages.personal_tokens.status.label": {
+    "message": "Status"
+  },
+  "pages.personal_tokens.status.revoked": {
+    "message": "Opozvan"
+  },
+  "pages.personal_tokens.title": {
+    "message": "Osobni tokeni"
+  },
+  "pages.personal_tokens.token_created_description": {
+    "message": "Vaš je osobni token izrađen. Kopirajte ga sada jer se više neće prikazivati."
+  },
+  "pages.personal_tokens.token_created_title": {
+    "message": "Osobni token je izrađen"
+  },
+  "pages.personal_tokens.token_regenerated_description": {
+    "message": "Vaš osobni token ponovno je generiran. Kopirajte ga sada jer se više neće prikazivati."
+  },
+  "pages.personal_tokens.token_regenerated_title": {
+    "message": "Token je ponovno generiran"
+  },
+  "pages.registration_tokens.auto_generate_placeholder": {
+    "message": "Automatski generiraj ako se ostavi prazno"
+  },
+  "pages.registration_tokens.create_token.error": {
+    "message": "Izrada tokena nije uspjela"
+  },
+  "pages.registration_tokens.create_token.submit": {
+    "message": "Izradi token"
+  },
+  "pages.registration_tokens.create_token.success": {
+    "message": "Token je uspješno izrađen"
+  },
+  "pages.registration_tokens.create_token.title": {
+    "message": "Izradi registracijski token"
+  },
+  "pages.registration_tokens.created_at_column": {
+    "message": "Izrađen u"
+  },
+  "pages.registration_tokens.created_at_label": {
+    "message": "Izrađen dana"
+  },
+  "pages.registration_tokens.custom_token_help": {
+    "message": "Neobavezni prilagođeni niz tokena. Ako se ostavi prazno, automatski će se generirati zaštićeni token."
+  },
+  "pages.registration_tokens.custom_token_label": {
+    "message": "Prilagođeni token"
+  },
+  "pages.registration_tokens.edit_properties": {
+    "message": "Uredi svojstva"
+  },
+  "pages.registration_tokens.edit_token_title": {
+    "message": "Uredi registracijski token"
+  },
+  "pages.registration_tokens.expires_at_field": {
+    "message": "Istječe na"
+  },
+  "pages.registration_tokens.expires_at_help": {
+    "message": "Kada token istekne. Ostavite prazno ako token nikada ne bi trebao isteći."
+  },
+  "pages.registration_tokens.expires_at_label": {
+    "message": "Istječe dana"
+  },
+  "pages.registration_tokens.filters.active_only": {
+    "message": "Aktivan"
+  },
+  "pages.registration_tokens.filters.expired_only": {
+    "message": "Istekao"
+  },
+  "pages.registration_tokens.filters.revoked_only": {
+    "message": "Opozvan"
+  },
+  "pages.registration_tokens.filters.unused_only": {
+    "message": "Nekorišten"
+  },
+  "pages.registration_tokens.filters.used_only": {
+    "message": "Korišten"
+  },
+  "pages.registration_tokens.loading_more": {
+    "message": "U tijeku je učitavanje još tokena..."
+  },
+  "pages.registration_tokens.never_expires": {
+    "message": "Nikad ne istječe"
+  },
+  "pages.registration_tokens.no_expiration_placeholder": {
+    "message": "Nema isteka"
+  },
+  "pages.registration_tokens.not_found.description": {
+    "message": "Zatraženi registracijski token ({tokenId} ) nije pronađen na poslužitelju {serverName}."
+  },
+  "pages.registration_tokens.not_found.title": {
+    "message": "Registracijski token nije pronađen"
+  },
+  "pages.registration_tokens.revoke_token": {
+    "message": "Opozovi token"
+  },
+  "pages.registration_tokens.revoked_at_label": {
+    "message": "Opozvan dana"
+  },
+  "pages.registration_tokens.save_changes": {
+    "message": "Spremi promjene"
+  },
+  "pages.registration_tokens.status.active": {
+    "message": "Aktivan"
+  },
+  "pages.registration_tokens.status.column": {
+    "message": "Status"
+  },
+  "pages.registration_tokens.status.expired": {
+    "message": "Istekao"
+  },
+  "pages.registration_tokens.status.invalid": {
+    "message": "Nevažeći"
+  },
+  "pages.registration_tokens.status.label": {
+    "message": "Status"
+  },
+  "pages.registration_tokens.status.revoked": {
+    "message": "Opozvan"
+  },
+  "pages.registration_tokens.status.used_up": {
+    "message": "Iskorišten"
+  },
+  "pages.registration_tokens.title": {
+    "message": "Registracijski tokeni"
+  },
+  "pages.registration_tokens.token_column": {
+    "message": "Token"
+  },
+  "pages.registration_tokens.token_count": {
+    "message": "{COUNT, plural, zero {Nema tokena} one {# token} other {# tokena}}"
+  },
+  "pages.registration_tokens.token_uses.limited": {
+    "message": "{uses, number}/{limit, number}"
+  },
+  "pages.registration_tokens.token_uses.unlimited": {
+    "message": "{uses, number}/∞"
+  },
+  "pages.registration_tokens.unlimited_placeholder": {
+    "message": "Neograničeno"
+  },
+  "pages.registration_tokens.unlimited_uses_placeholder": {
+    "message": "Ostavite prazno za neograničenu upotrebu"
+  },
+  "pages.registration_tokens.unrevoke_token": {
+    "message": "Poništi opoziv tokena"
+  },
+  "pages.registration_tokens.usage_count_label": {
+    "message": "Broj upotreba"
+  },
+  "pages.registration_tokens.usage_limit_field": {
+    "message": "Ograničenje upotrebe"
+  },
+  "pages.registration_tokens.usage_limit_help": {
+    "message": "Maksimalan broj upotreba ovog tokena. Ostavite prazno za neograničenu upotrebu."
+  },
+  "pages.registration_tokens.usage_limit_label": {
+    "message": "Ograničenje upotrebe"
+  },
+  "pages.registration_tokens.uses_column": {
+    "message": "Upotrebe"
+  },
+  "pages.registration_tokens.valid_until_column": {
+    "message": "Vrijedi do"
+  },
+  "pages.rooms.delete_room.alert.description": {
+    "message": "Ovim će se trajno izbrisati sve poruke ili mediji preneseni na poslužitelj i ukloniti ova soba iz direktorija. Članovi će izgubiti pristup svojim porukama, a soba će se ukloniti s njihova popisa soba."
+  },
+  "pages.rooms.delete_room.alert.title": {
+    "message": "Izbrisat ćete podatke o sobi"
+  },
+  "pages.rooms.delete_room.block.help": {
+    "message": "Spriječite korisnike da se ponovno pridruže sobi nakon brisanja."
+  },
+  "pages.rooms.delete_room.block.label": {
+    "message": "Blokiraj sobu"
+  },
+  "pages.rooms.delete_room.button": {
+    "message": "Trajno izbriši"
+  },
+  "pages.rooms.delete_room.error": {
+    "message": "Zakazivanje brisanja sobe nije uspjelo"
+  },
+  "pages.rooms.delete_room.success": {
+    "message": "Brisanje sobe je zakazano"
+  },
+  "pages.rooms.delete_room.title": {
+    "message": "Želite li izbrisati ovu sobu?"
+  },
+  "pages.rooms.deletion.failure.description": {
+    "message": "Zadatak brisanja sobe nije uspio dana {timestamp, date, short} u {timestamp, time, short} s pogreškom: {error}"
+  },
+  "pages.rooms.deletion.failure.title": {
+    "message": "Brisanje nije uspjelo"
+  },
+  "pages.rooms.deletion.in_progress.description": {
+    "message": "Zadatak brisanja sobe u tijeku je od {timestamp, date, short} u {timestamp, time, short}."
+  },
+  "pages.rooms.deletion.in_progress.title": {
+    "message": "Brisanje je u tijeku"
+  },
+  "pages.rooms.deletion.success.description": {
+    "message": "Zadatak brisanja sobe uspješno je završen dana {timestamp, date, short} u {timestamp, time, short}."
+  },
+  "pages.rooms.deletion.success.title": {
+    "message": "Brisanje je uspješno završeno"
+  },
+  "pages.rooms.filters.empty_rooms": {
+    "message": "Prazne sobe"
+  },
+  "pages.rooms.filters.non_empty_rooms": {
+    "message": "Sobe s članovima"
+  },
+  "pages.rooms.filters.private_rooms": {
+    "message": "Privatne sobe"
+  },
+  "pages.rooms.filters.public_rooms": {
+    "message": "Javne sobe"
+  },
+  "pages.rooms.not_found.description": {
+    "message": "Tražena soba ({roomId} ) nije pronađena na poslužitelju {serverName}."
+  },
+  "pages.rooms.not_found.title": {
+    "message": "Soba nije pronađena"
+  },
+  "pages.rooms.room_count": {
+    "message": "{COUNT, plural, zero {Nema soba} one {# soba} other {# soba}}"
+  },
+  "pages.rooms.title": {
+    "message": "Sobe"
+  },
+  "pages.supervision.description": {
+    "message": "Prijavite se kao <b>{mxid}</b> kako biste mogli obavljati administratorske radnje u bilo kojoj sobi."
+  },
+  "pages.supervision.disabled_alert.description": {
+    "message": "Ova je značajka dio vaše pretplate. Možete zamoliti administratora da je omogući."
+  },
+  "pages.supervision.disabled_alert.title": {
+    "message": "Moderiranje je trenutačno onemogućeno"
+  },
+  "pages.supervision.errors.cant_open.description": {
+    "message": "Vaš preglednik blokira otvaranje skočnih prozora. Obavezno dopustite skočne prozore s ovog mrežnog mjesta."
+  },
+  "pages.supervision.errors.cant_open.title": {
+    "message": "Nije uspjelo otvaranje sučelja za moderiranje u novom prozoru"
+  },
+  "pages.supervision.errors.closed.description": {
+    "message": "Prijava u sučelje za moderiranje nije uspjela jer se ono zatvorilo prije dovršetka prijave."
+  },
+  "pages.supervision.errors.closed.title": {
+    "message": "Sučelje za moderiranje prebrzo se zatvorilo"
+  },
+  "pages.supervision.errors.generic.title": {
+    "message": "Došlo je do neočekivane pogreške prilikom otvaranja sučelja za moderiranje"
+  },
+  "pages.supervision.missing_ui_address.description": {
+    "message": "Moderiranje je omogućeno u vašoj instalaciji, ali ne i u Element Webu, koji je neophodan za rad sučelja za moderiranje."
+  },
+  "pages.supervision.missing_ui_address.title": {
+    "message": "Sučelje za moderiranje zahtijeva da Element Web bude omogućen"
+  },
+  "pages.supervision.recovery_key.copied": {
+    "message": "Ključ za oporavak je kopiran"
+  },
+  "pages.supervision.recovery_key.copy_failed": {
+    "message": "Nije moguće kopirati ključ za oporavak"
+  },
+  "pages.supervision.recovery_key.help": {
+    "message": "Ovo je ključ za oporavak koji se upotrebljava za omogućavanje čitanja šifriranih poruka."
+  },
+  "pages.supervision.recovery_key.label": {
+    "message": "Ključ za oporavak"
+  },
+  "pages.supervision.title": {
+    "message": "Moderiranje"
+  },
+  "pages.supervision.unavailable_alert.description": {
+    "message": "Ova značajka nije dostupna u inačici ESS Community. Nadogradite na ESS Pro kako biste je omogućili."
+  },
+  "pages.supervision.unavailable_alert.title": {
+    "message": "Moderiranje je značajka dostupna u inačici ESS Pro"
+  },
+  "pages.users.add_email.button": {
+    "message": "Dodaj e-adresu"
+  },
+  "pages.users.add_email.description": {
+    "message": "Dodajte e-adresu ovom korisniku"
+  },
+  "pages.users.add_email.error": {
+    "message": "Dodavanje e-adrese nije uspjelo"
+  },
+  "pages.users.add_email.error.email_invalid": {
+    "message": "Nevažeća e-adresa"
+  },
+  "pages.users.add_email.error.email_missing": {
+    "message": "Ovo polje je obavezno"
+  },
+  "pages.users.add_email.success": {
+    "message": "Dodana je e-adresa"
+  },
+  "pages.users.add_email.title": {
+    "message": "Dodaj e-adresu"
+  },
+  "pages.users.add_upstream_link.error": {
+    "message": "Povezivanje s vanjskim računom nije uspjelo"
+  },
+  "pages.users.add_upstream_link.success": {
+    "message": "Vanjski račun je povezan"
+  },
+  "pages.users.deactivate_account.alert.description": {
+    "message": "Ovim će se korisnik automatski odjaviti sa svih uređaja, ukloniti svi tokeni za pristup, izbrisati svi ID-ovi trećih strana i trajno izbrisati podatci o njegovu računu."
+  },
+  "pages.users.deactivate_account.alert.title": {
+    "message": "Izbrisat ćete korisničke podatke"
+  },
+  "pages.users.deactivate_account.button": {
+    "message": "Deaktiviraj račun"
+  },
+  "pages.users.deactivate_account.error": {
+    "message": "Deaktivacija računa nije uspjela"
+  },
+  "pages.users.deactivate_account.success": {
+    "message": "Račun je deaktiviran"
+  },
+  "pages.users.deactivate_account.title": {
+    "message": "Želite li deaktivirati ovog korisnika?"
+  },
+  "pages.users.delete_email.description": {
+    "message": "Jeste li sigurni da želite ukloniti ovu e-adresu ({email}) od ovog korisnika ({mxid})?"
+  },
+  "pages.users.delete_email.error": {
+    "message": "Brisanje e-adrese nije uspjelo"
+  },
+  "pages.users.delete_email.success": {
+    "message": "E-adresa je izbrisana"
+  },
+  "pages.users.delete_email.title": {
+    "message": "Želite li ukloniti e-adresu?"
+  },
+  "pages.users.delete_upstream_link.description": {
+    "message": "Jeste li sigurni da želite ukloniti vezu između ovog korisnika ({mxid}) i ovog vanjskog računa ({subject})?"
+  },
+  "pages.users.delete_upstream_link.error": {
+    "message": "Brisanje veze s vanjskim računom nije uspjelo"
+  },
+  "pages.users.delete_upstream_link.success": {
+    "message": "Izbrisana je veza s vanjskim računom"
+  },
+  "pages.users.delete_upstream_link.title": {
+    "message": "Želite li ukloniti vezu s vanjskim računom?"
+  },
+  "pages.users.filters.active": {
+    "message": "Aktivni korisnici"
+  },
+  "pages.users.filters.admins": {
+    "message": "Administratori"
+  },
+  "pages.users.filters.deactivated": {
+    "message": "Deaktivirani korisnici"
+  },
+  "pages.users.filters.guests": {
+    "message": "Gosti (zastarjelo)"
+  },
+  "pages.users.filters.locked": {
+    "message": "Zaključani korisnici"
+  },
+  "pages.users.filters.newest_first": {
+    "message": "Najprije najnovije"
+  },
+  "pages.users.filters.non_guests": {
+    "message": "Korisnici koji nisu gosti (zastarjelo)"
+  },
+  "pages.users.lock_account.alert.description": {
+    "message": "Ovaj će se korisnik automatski zaključati sa svih uređaja na kojima je trenutačno prijavljen i neće se moći prijaviti na nove uređaje dok se ne otključa."
+  },
+  "pages.users.lock_account.alert.title": {
+    "message": "Korisnik neće moći slati ili primati poruke"
+  },
+  "pages.users.lock_account.button": {
+    "message": "Zaključaj račun"
+  },
+  "pages.users.lock_account.error": {
+    "message": "Zaključavanje računa nije uspjelo"
+  },
+  "pages.users.lock_account.success": {
+    "message": "Račun je zaključan"
+  },
+  "pages.users.lock_account.title": {
+    "message": "Želite li zaključati račun ovog korisnika?"
+  },
+  "pages.users.new_user.add_user": {
+    "message": "Dodavanje korisnika"
+  },
+  "pages.users.new_user.create_account": {
+    "message": "Izradi račun"
+  },
+  "pages.users.new_user.description": {
+    "message": "Kako biste dodali novog korisnika na poslužitelju {serverName}, odaberite korisničko ime za tog korisnika, koje će biti dio njegova korisničkog ID-a."
+  },
+  "pages.users.new_user.error_message": {
+    "message": "Pogreška pri kreiranju korisnika"
+  },
+  "pages.users.new_user.invalid_localpart": {
+    "message": "Lokalni dio može sadržavati samo mala slova, brojeve, točke, podcrte, crtice i obrnute kose crte"
+  },
+  "pages.users.new_user.invalid_localpart_numeric_only": {
+    "message": "Lokalni dio ne može sadržavati samo brojeve"
+  },
+  "pages.users.new_user.localpart": {
+    "message": "Unesi ime"
+  },
+  "pages.users.new_user.required_error": {
+    "message": "Ovo polje je obavezno"
+  },
+  "pages.users.new_user.success_message": {
+    "message": "Korisnik je kreiran"
+  },
+  "pages.users.not_found.description": {
+    "message": "Traženi korisnik ({userId}) nije pronađen na poslužitelju {serverName}."
+  },
+  "pages.users.not_found.title": {
+    "message": "Korisnik nije pronađen"
+  },
+  "pages.users.reactivate_account.button": {
+    "message": "Ponovno aktiviraj"
+  },
+  "pages.users.reactivate_account.error": {
+    "message": "Ponovna aktivacija računa nije uspjela"
+  },
+  "pages.users.reactivate_account.success": {
+    "message": "Račun je ponovno aktiviran"
+  },
+  "pages.users.search_placeholder": {
+    "message": "Pretraži korisnike…"
+  },
+  "pages.users.set_admin.alert.description": {
+    "message": "Korisnik će moći pregledavati korisničke podatke i mijenjati korisnička dopuštenja i dopuštenja za sobu."
+  },
+  "pages.users.set_admin.alert.title": {
+    "message": "Korisnik će imati pristup osjetljivim podatcima"
+  },
+  "pages.users.set_admin.error": {
+    "message": "Nije uspjela promjena administratorskih ovlasti za {mxid}"
+  },
+  "pages.users.set_admin.label": {
+    "message": "Administrator"
+  },
+  "pages.users.set_admin.make_admin_button": {
+    "message": "Postavi za administratora"
+  },
+  "pages.users.set_admin.successfully_demoted": {
+    "message": "{mxid} više nema administratorske ovlasti"
+  },
+  "pages.users.set_admin.successfully_promoted": {
+    "message": "{mxid} sada ima administratorske ovlasti"
+  },
+  "pages.users.set_admin.title": {
+    "message": "Želite li ovog korisnika postaviti za administratora?"
+  },
+  "pages.users.set_password.button": {
+    "message": "Promjena zaporke"
+  },
+  "pages.users.set_password.confirm_password_label": {
+    "message": "Ponovno unesi zaporku"
+  },
+  "pages.users.set_password.error": {
+    "message": "Postavljanje zaporke nije uspjelo"
+  },
+  "pages.users.set_password.error.password_missing": {
+    "message": "Ovo polje je obavezno"
+  },
+  "pages.users.set_password.error.passwords_mismatch": {
+    "message": "Zaporke se ne podudaraju"
+  },
+  "pages.users.set_password.password_label": {
+    "message": "Zaporka"
+  },
+  "pages.users.set_password.password_match": {
+    "message": "Zaporke se podudaraju!"
+  },
+  "pages.users.set_password.submit": {
+    "message": "Postavi novu zaporku"
+  },
+  "pages.users.set_password.success": {
+    "message": "Zaporka je uspješno postavljena"
+  },
+  "pages.users.set_password.title": {
+    "message": "Postavi novu lozinku za ovog korisnika"
+  },
+  "pages.users.title": {
+    "message": "Korisnici"
+  },
+  "pages.users.unlock_account.button": {
+    "message": "Otključaj račun"
+  },
+  "pages.users.unlock_account.error": {
+    "message": "Otključavanje računa nije uspjelo"
+  },
+  "pages.users.unlock_account.success": {
+    "message": "Račun je otključan"
+  },
+  "pages.users.user_count": {
+    "message": "{COUNT, plural, zero {Nema korisnika} one {# korisnik} other {# korisnika}}"
+  },
+  "product.element": {
+    "message": "Element"
+  },
+  "product.title": {
+    "message": "Element Admin"
+  },
+  "product.title.community": {
+    "message": "Element Community"
+  },
+  "product.title.pro": {
+    "message": "Element Pro"
+  },
+  "product.title.ti-m": {
+    "message": "Element TI-Messenger"
+  },
+  "room_info.empty_room": {
+    "message": "Prazna soba"
+  },
+  "room_info.empty_space": {
+    "message": "Prazan prostor"
+  },
+  "room_info.room_with": {
+    "message": "Soba s članovima {members}"
+  },
+  "room_info.space_with": {
+    "message": "Prostor s članovima {members}"
+  },
+  "room_info.unknown_user": {
+    "message": "Nepoznati korisnik"
+  },
+  "rooms_info.other_members": {
+    "message": "{COUNT, plural, one {još #} few {još #} other {još #}}"
+  },
+  "ui.data.failed_to_load": {
+    "message": "Učitavanje nije uspjelo"
+  },
+  "ui.data.loading": {
+    "message": "Učitavanje vrijednosti"
+  },
+  "ui.language_switcher.browser_default": {
+    "message": "Upotrijebi postavke preglednika ({language})"
+  },
+  "ui.language_switcher.button_label": {
+    "message": "Postavke jezika"
+  },
+  "ui.language_switcher.description": {
+    "message": "Odaberite željeni jezik za sučelje."
+  },
+  "ui.language_switcher.language_list_label": {
+    "message": "Popis dostupnih jezika"
+  },
+  "ui.language_switcher.title": {
+    "message": "Postavke jezika"
+  },
+  "ui.user_picker.loading_list": {
+    "message": "U tijeku je učitavanje…"
+  },
+  "ui.user_picker.no_match": {
+    "message": "Nema podudaranja"
+  },
+  "ui.user_picker.no_match_help": {
+    "message": "Pokušajte s drugim pojmom za pretraživanje. TIme se mogu pretraživati ​​samo aktivni korisnici na poslužitelju {serverName} pomoću lokalnog dijela njihova imena."
+  }
+}
