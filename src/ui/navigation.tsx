@@ -54,11 +54,11 @@ const AppNavigation = ({ features }: { features: MasFeaturesStatus }) => (
         description="Label for the auditing navigation item in the main navigation sidebar"
       />
     </Navigation.NavLink>
-    <Navigation.NavLink Icon={AdminIcon} to="/moderation">
+    <Navigation.NavLink Icon={AdminIcon} to="/supervision">
       <FormattedMessage
-        id="navigation.moderation"
-        defaultMessage="Moderation"
-        description="Label for the moderation navigation item in the main navigation sidebar"
+        id="navigation.supervision"
+        defaultMessage="Supervision"
+        description="Label for the supervision navigation item in the main navigation sidebar"
       />
     </Navigation.NavLink>
     <Navigation.Divider />

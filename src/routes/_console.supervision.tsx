@@ -38,12 +38,12 @@ import * as Marketing from "@/ui/marketing";
 import { assertNever } from "@/utils/never";
 
 const titleMessage = defineMessage({
-  id: "pages.moderation.title",
-  defaultMessage: "Moderation",
-  description: "The title of the moderation page",
+  id: "pages.supervision.title",
+  defaultMessage: "Supervision",
+  description: "The title of the supervision page",
 });
 
-export const Route = createFileRoute("/_console/moderation")({
+export const Route = createFileRoute("/_console/supervision")({
   staticData: {
     breadcrumb: {
       message: titleMessage,
@@ -79,7 +79,7 @@ const messageSchema = v.picklist(["loaded", "authenticated", "missing-config"]);
 
 type Result = "ok" | "cant open" | "closed";
 
-async function openModeration({
+async function openSupervision({
   instance,
   hostname,
   userId,
@@ -87,7 +87,7 @@ async function openModeration({
   deviceId,
 }: Config): Promise<Result> {
   const controller = new AbortController();
-  const loginWindow = globalThis.window.open(instance, "moderation-ui");
+  const loginWindow = globalThis.window.open(instance, "supervision-ui");
   if (loginWindow === null || loginWindow.closed) {
     return "cant open";
   }
@@ -214,7 +214,7 @@ function LaunchAdminbot({
 }: LaunchAdminbotProps) {
   const intl = useIntl();
   const { mutate, isPending, error, data } = useMutation({
-    mutationFn: openModeration,
+    mutationFn: openSupervision,
   });
 
   const onClick = useCallback(
@@ -238,17 +238,17 @@ function LaunchAdminbot({
         <Alert
           type="critical"
           title={intl.formatMessage({
-            id: "pages.moderation.errors.cant_open.title",
+            id: "pages.supervision.errors.cant_open.title",
             defaultMessage:
-              "Failed to open the moderation interface in a new window",
+              "Failed to open the supervision interface in a new window",
             description:
-              "The title of the error message when the moderation interface can't be opened",
+              "The title of the error message when the supervision interface can't be opened",
           })}
         >
           <FormattedMessage
-            id="pages.moderation.errors.cant_open.description"
+            id="pages.supervision.errors.cant_open.description"
             defaultMessage="Your browser is blocking the opening of pop-up windows. Please make sure you allow pop-ups from this site."
-            description="The description of the error message when the moderation interface can't be opened in a new window"
+            description="The description of the error message when the supervision interface can't be opened in a new window"
           />
         </Alert>
       )}
@@ -257,16 +257,16 @@ function LaunchAdminbot({
         <Alert
           type="critical"
           title={intl.formatMessage({
-            id: "pages.moderation.errors.closed.title",
-            defaultMessage: "The moderation interface was closed too quickly",
+            id: "pages.supervision.errors.closed.title",
+            defaultMessage: "The supervision interface was closed too quickly",
             description:
-              "The title of the error message when the moderation interface was closed",
+              "The title of the error message when the supervision interface was closed",
           })}
         >
           <FormattedMessage
-            id="pages.moderation.errors.closed.description"
-            defaultMessage="Failed to sign in the moderation interface, as it closed before it could finish signing in"
-            description="The description of the error message when the moderation interface was closed"
+            id="pages.supervision.errors.closed.description"
+            defaultMessage="Failed to sign in the supervision interface, as it closed before it could finish signing in"
+            description="The description of the error message when the supervision interface was closed"
           />
         </Alert>
       )}
@@ -275,11 +275,11 @@ function LaunchAdminbot({
         <Alert
           type="critical"
           title={intl.formatMessage({
-            id: "pages.moderation.errors.generic.title",
+            id: "pages.supervision.errors.generic.title",
             defaultMessage:
-              "An unexpected error occurred whilst opening the moderation interface",
+              "An unexpected error occurred whilst opening the supervision interface",
             description:
-              "The title of the error message when the moderation interface can't be opened",
+              "The title of the error message when the supervision interface can't be opened",
           })}
         >
           {String(error)}
@@ -319,9 +319,9 @@ function AdminbotContent({ config, synapseRoot }: AdminbotContentProps) {
       <div className="flex flex-col gap-6 max-w-[60ch]">
         <Text size="md" className="text-pretty">
           <FormattedMessage
-            id="pages.moderation.description"
+            id="pages.supervision.description"
             defaultMessage="Sign in as <b>{mxid}</b> to perform administrative actions in any room."
-            description="The description of the moderation page"
+            description="The description of the supervision page"
             values={{
               mxid: config.mxid,
               b: (chunks) => <b>{...chunks}</b>,
@@ -341,17 +341,17 @@ function AdminbotContent({ config, synapseRoot }: AdminbotContentProps) {
           <Alert
             type="critical"
             title={intl.formatMessage({
-              id: "pages.moderation.missing_ui_address.title",
+              id: "pages.supervision.missing_ui_address.title",
               description:
                 "When adminbot is enabled, but the Element Web is not deployed with ESS, we show an alert, as the UI feature relies on it. This is the title of said alert.",
               defaultMessage:
-                "The moderation interface requires Element Web to be enabled",
+                "The supervision interface requires Element Web to be enabled",
             })}
           >
             <FormattedMessage
-              id="pages.moderation.missing_ui_address.description"
+              id="pages.supervision.missing_ui_address.description"
               description="When adminbot is enabled, but the Element Web is not deployed with ESS, we show an alert, as the UI feature relies on it. This is the description of said alert."
-              defaultMessage="Moderation is enabled in your deployment, but not Element Web, which is required for the moderation interface to work."
+              defaultMessage="Supervision is enabled in your deployment, but not Element Web, which is required for the supervision interface to work."
             />
           </Alert>
         )}
@@ -377,9 +377,9 @@ function SecurePassphrase({ value }: SecurePassphraseProps) {
         await navigator.clipboard.writeText(value);
         toast.success(
           intl.formatMessage({
-            id: "pages.moderation.recovery_key.copied",
+            id: "pages.supervision.recovery_key.copied",
             description:
-              "On the moderation page, message displayed when the recovery key is copied to the clipboard",
+              "On the supervision page, message displayed when the recovery key is copied to the clipboard",
             defaultMessage: "Recovery key copied",
           }),
         );
@@ -387,9 +387,9 @@ function SecurePassphrase({ value }: SecurePassphraseProps) {
         console.error("Could not copy recovery key to the clipboard", error);
         toast.error(
           intl.formatMessage({
-            id: "pages.moderation.recovery_key.copy_failed",
+            id: "pages.supervision.recovery_key.copy_failed",
             description:
-              "On the moderation page, message displayed when the recovery key could not be copied to the clipboard",
+              "On the supervision page, message displayed when the recovery key could not be copied to the clipboard",
             defaultMessage: "Could not copy recovery key",
           }),
         );
@@ -406,8 +406,8 @@ function SecurePassphrase({ value }: SecurePassphraseProps) {
       <Form.Field name="passphrase">
         <Form.Label>
           <FormattedMessage
-            id="pages.moderation.recovery_key.label"
-            description="On the moderation page, label for the recovery key readonly input field"
+            id="pages.supervision.recovery_key.label"
+            description="On the supervision page, label for the recovery key readonly input field"
             defaultMessage="Recovery key"
           />
         </Form.Label>
@@ -430,8 +430,8 @@ function SecurePassphrase({ value }: SecurePassphraseProps) {
         </div>
         <Form.HelpMessage className="text-pretty">
           <FormattedMessage
-            id="pages.moderation.recovery_key.help"
-            description="On the moderation page, help text for the recovery key readonly input field"
+            id="pages.supervision.recovery_key.help"
+            description="On the supervision page, help text for the recovery key readonly input field"
             defaultMessage="This is the recovery key used to enable reading encrypted messages."
           />
         </Form.HelpMessage>
@@ -453,14 +453,14 @@ function AdminbotDisabled({ isPro }: AdminbotDisabledProps) {
           type="info"
           className="max-w-[80ch]"
           title={intl.formatMessage({
-            id: "pages.moderation.disabled_alert.title",
+            id: "pages.supervision.disabled_alert.title",
             description:
               "When the feature is disabled on an ESS Pro deployment, this is the title of the alert message telling admins to configure it",
-            defaultMessage: "Moderation is currently disabled",
+            defaultMessage: "Supervision is currently disabled",
           })}
         >
           <FormattedMessage
-            id="pages.moderation.disabled_alert.description"
+            id="pages.supervision.disabled_alert.description"
             description="When the feature is disabled on an ESS Pro deployment, this is the description of the alert message telling admins to configure it"
             defaultMessage="This feature is part of your subscription. You can ask an administrator to enable it."
           />
@@ -470,22 +470,22 @@ function AdminbotDisabled({ isPro }: AdminbotDisabledProps) {
           type="info"
           className="max-w-[80ch]"
           title={intl.formatMessage({
-            id: "pages.moderation.unavailable_alert.title",
+            id: "pages.supervision.unavailable_alert.title",
             description:
-              "Title of the alert explaining that the moderation feature is only available in ESS Pro",
-            defaultMessage: "Moderation is a feature available in ESS Pro",
+              "Title of the alert explaining that the supervision feature is only available in ESS Pro",
+            defaultMessage: "Supervision is a feature available in ESS Pro",
           })}
         >
           <FormattedMessage
-            id="pages.moderation.unavailable_alert.description"
-            description="Description of the alert explaining that the moderation feature is only available in ESS Pro"
+            id="pages.supervision.unavailable_alert.description"
+            description="Description of the alert explaining that the supervision feature is only available in ESS Pro"
             defaultMessage="This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
           />
         </Alert>
       )}
 
       <Card.Stack>
-        <Marketing.ModerationCard proBadge={!isPro} />
+        <Marketing.SupervisionCard proBadge={!isPro} />
         {!isPro && <Marketing.AlsoAvailableInPro />}
       </Card.Stack>
     </>

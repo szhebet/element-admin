@@ -70,40 +70,40 @@ compliance, scalability, high availability and multi-tenancy.</p>"
   </Card.Root>
 );
 
-export const ModerationCard = ({ proBadge }: { proBadge?: boolean }) => (
+export const SupervisionCard = ({ proBadge }: { proBadge?: boolean }) => (
   <Card.Root kind="secondary">
     <Card.Header>
       <Card.Icon icon={AdminIcon} />
       <Card.Title>
         <FormattedMessage
-          id="marketing.moderation.title"
-          defaultMessage="Moderation"
-          description="Title of the card explaining what moderation is"
+          id="marketing.supervision.title"
+          defaultMessage="Supervision"
+          description="Title of the card explaining what supervision is"
         />
       </Card.Title>
       {proBadge && <ProBadge />}
     </Card.Header>
 
     <FormattedMessage
-      id="marketing.moderation.description"
+      id="marketing.supervision.description"
       defaultMessage="
-<p>Moderation enables an organisation to administer all rooms from a central
-point. A ‘moderator’ account will join defined rooms with room admin privileges.
+<p>Supervision enables an organisation to administer all rooms from a central
+point. A 'supervisor' account will join defined rooms with room admin privileges.
 Server administrators can seamlessly impersonate the account from the admin
-console to manage and moderate their rooms.</p>
+console to manage and supervise their rooms.</p>
 <ul>
 <li>Manage rooms and their settings (name, topic, permissions, etc.)</li>
 <li>Manage room memberships</li>
 <li>Remove unwanted messages and uploaded media</li>
 <li>Recover abandoned rooms (all users have left)</li>
-<li>Moderator account can or cannot read encrypted message contents (configurable)</li>
+<li>Supervisor account can or cannot read encrypted message contents (configurable)</li>
 </ul>"
       values={{
         p: (chunks) => <Card.Body>{...chunks}</Card.Body>,
         ul: (chunks) => <Card.Checklist>{...chunks}</Card.Checklist>,
         li: (chunks) => <Card.ChecklistItem>{...chunks}</Card.ChecklistItem>,
       }}
-      description="Description of the card explaining what moderation is"
+      description="Description of the card explaining what supervision is"
     />
   </Card.Root>
 );
