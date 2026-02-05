@@ -15,7 +15,7 @@
     "message": "Kopieren"
   },
   "action.delete": {
-    "message": "Delete"
+    "message": "Löschen"
   },
   "action.go_back": {
     "message": "Zurück"
@@ -83,10 +83,10 @@
   "marketing.auditing.title": {
     "message": "Auditing"
   },
-  "marketing.moderation.description": {
+  "marketing.supervision.description": {
     "message": "<p>Moderation ermöglicht es einer Organisation, alle Chats von einem zentralen Punkt aus zu verwalten. Ein „Moderator”-Konto tritt definierten Chats mit Administratorrechten bei. Serveradministratoren können sich nahtlos über die Adminkonsole in das Konto einloggen, um ihre Chats zu verwalten und zu moderieren.</p> <ul> <li>Chats und deren Einstellungen verwalten (Name, Thema, Berechtigungen usw.)</li> <li>Raummitgliedschaften verwalten</li> <li>Unerwünschte Nachrichten und hochgeladene Medien entfernen</li> <li>Verlassene Chats wiederherstellen (alle Benutzer haben den Chat verlassen)</li> <li>Das Moderator-Konto kann entweder verschlüsselte Nachrichtinhalte lesen oder nicht (konfigurierbar)</li> </ul>"
   },
-  "marketing.moderation.title": {
+  "marketing.supervision.title": {
     "message": "Moderation"
   },
   "navigation.auditing": {
@@ -98,9 +98,6 @@
   "navigation.documentation": {
     "message": "Dokumentation"
   },
-  "navigation.moderation": {
-    "message": "Moderation"
-  },
   "navigation.personal_tokens": {
     "message": "Persönliche Token"
   },
@@ -109,6 +106,9 @@
   },
   "navigation.rooms": {
     "message": "Chats"
+  },
+  "navigation.supervision": {
+    "message": "Moderation"
   },
   "navigation.users": {
     "message": "Nutzer"
@@ -181,57 +181,6 @@
   },
   "pages.login.title": {
     "message": "Login"
-  },
-  "pages.moderation.description": {
-    "message": "Melden Sie sich als <b>{mxid}</b> an, um administrative Aktionen in jedem beliebigen Chat durchzuführen."
-  },
-  "pages.moderation.disabled_alert.description": {
-    "message": "Diese Funktion ist Bestandteil Ihres Abonnements. Sie können einen Administrator bitten, sie zu aktivieren."
-  },
-  "pages.moderation.disabled_alert.title": {
-    "message": "Moderation ist derzeit deaktiviert"
-  },
-  "pages.moderation.errors.cant_open.description": {
-    "message": "Ihr Browser blockiert das Öffnen von Popup-Fenstern. Bitte stellen Sie sicher, dass Sie Popups von dieser Website zulassen."
-  },
-  "pages.moderation.errors.cant_open.title": {
-    "message": "Die Moderationsoberfläche konnte nicht in einem neuen Fenster geöffnet werden."
-  },
-  "pages.moderation.errors.closed.description": {
-    "message": "Die Anmeldung bei der Moderationsschnittstelle ist fehlgeschlagen, da diese geschlossen wurde, bevor die Anmeldung abgeschlossen werden konnte."
-  },
-  "pages.moderation.errors.closed.title": {
-    "message": "Die Moderationsoberfläche wurde vorzeitig geschlossen."
-  },
-  "pages.moderation.errors.generic.title": {
-    "message": "Beim Öffnen der Moderationsoberfläche ist ein unerwarteter Fehler aufgetreten."
-  },
-  "pages.moderation.missing_ui_address.description": {
-    "message": "Moderation ist in Ihrer Umgebung aktiviert, jedoch nicht in Element Web, das für die Funktion der Moderationsoberfläche erforderlich ist."
-  },
-  "pages.moderation.missing_ui_address.title": {
-    "message": "Die Moderationsoberfläche erfordert, dass Element Web aktiviert ist."
-  },
-  "pages.moderation.recovery_key.copied": {
-    "message": "Wiederherstellungsschlüssel kopiert"
-  },
-  "pages.moderation.recovery_key.copy_failed": {
-    "message": "Der Wiederherstellungsschlüssel konnte nicht kopiert werden."
-  },
-  "pages.moderation.recovery_key.help": {
-    "message": "Dies ist der Wiederherstellungsschlüssel, der zum Lesen verschlüsselter Nachrichten benötigt wird."
-  },
-  "pages.moderation.recovery_key.label": {
-    "message": "Wiederherstellungsschlüssel"
-  },
-  "pages.moderation.title": {
-    "message": "Moderation"
-  },
-  "pages.moderation.unavailable_alert.description": {
-    "message": "Diese Funktion ist in ESS Community nicht verfügbar. Wechseln Sie zu ESS Pro, um sie zu aktivieren."
-  },
-  "pages.moderation.unavailable_alert.title": {
-    "message": "Moderation ist eine Funktion, die in ESS Pro verfügbar ist."
   },
   "pages.personal_tokens.acting_user_column": {
     "message": "Handelnder Nutzer"
@@ -576,46 +525,46 @@
     "message": "Gültig bis"
   },
   "pages.rooms.delete_room.alert.description": {
-    "message": "This will permanently delete all messages or media uploaded to the server and remove this room from the directory. Members will lose access to their messages and the room will be removed from their room list."
+    "message": "Dadurch werden alle auf den Server hochgeladenen Nachrichten und Medien endgültig entfernt und diese Gruppe wird aus dem Verzeichnis entfernt. Mitglieder verlieren den Zugriff auf ihre Nachrichten, und die Gruppe wird aus ihrer Chatliste gelöscht."
   },
   "pages.rooms.delete_room.alert.title": {
-    "message": "You’re about to delete room data"
+    "message": "Du bist im Begriff, Chat Daten zu löschen."
   },
   "pages.rooms.delete_room.block.help": {
-    "message": "Prevent users from rejoining the room after deletion."
+    "message": "Nutzern nicht gestatten, die Gruppe nach dem Löschen wieder zu betreten."
   },
   "pages.rooms.delete_room.block.label": {
-    "message": "Block room"
+    "message": "Chat sperren"
   },
   "pages.rooms.delete_room.button": {
-    "message": "Delete permanently"
+    "message": "Dauerhaft löschen"
   },
   "pages.rooms.delete_room.error": {
-    "message": "Failed to schedule room deletion"
+    "message": "Das Löschen des Chats konnte nicht geplant werden."
   },
   "pages.rooms.delete_room.success": {
-    "message": "Room deletion scheduled"
+    "message": "Löschen des Chats geplant"
   },
   "pages.rooms.delete_room.title": {
-    "message": "Delete this room?"
+    "message": "Diesen Chat löschen?"
   },
   "pages.rooms.deletion.failure.description": {
-    "message": "Room deletion task failed on {timestamp, date, short} at {timestamp, time, short} with error: {error}"
+    "message": "Der Vorgang zum Löschen eines Chats ist am {timestamp, date, short} um {timestamp, time, short} Uhr mit folgendem Fehler fehlgeschlagen: {error}"
   },
   "pages.rooms.deletion.failure.title": {
-    "message": "Deletion failed"
+    "message": "Löschen fehlgeschlagen"
   },
   "pages.rooms.deletion.in_progress.description": {
-    "message": "Room deletion task is in progress since {timestamp, date, short} at {timestamp, time, short}."
+    "message": "Der Vorgang zum Löschen eines Chats läuft seit {timestamp, date, short} um {timestamp, time, short} Uhr."
   },
   "pages.rooms.deletion.in_progress.title": {
-    "message": "Deletion in progress"
+    "message": "Löschvorgang läuft"
   },
   "pages.rooms.deletion.success.description": {
-    "message": "Room deletion task completed successfully on {timestamp, date, short} at {timestamp, time, short}."
+    "message": "Die Aufgabe zum Löschen eines Chats wurde erfolgreich am {timestamp, date, short} um {timestamp, time, short} Uhr abgeschlossen."
   },
   "pages.rooms.deletion.success.title": {
-    "message": "Deletion successful"
+    "message": "Löschung erfolgreich"
   },
   "pages.rooms.filters.empty_rooms": {
     "message": "Leere Chats"
@@ -640,6 +589,57 @@
   },
   "pages.rooms.title": {
     "message": "Chats"
+  },
+  "pages.supervision.description": {
+    "message": "Melden Sie sich als <b>{mxid}</b> an, um administrative Aktionen in jedem beliebigen Chat durchzuführen."
+  },
+  "pages.supervision.disabled_alert.description": {
+    "message": "Diese Funktion ist Bestandteil Ihres Abonnements. Sie können einen Administrator bitten, sie zu aktivieren."
+  },
+  "pages.supervision.disabled_alert.title": {
+    "message": "Moderation ist derzeit deaktiviert"
+  },
+  "pages.supervision.errors.cant_open.description": {
+    "message": "Ihr Browser blockiert das Öffnen von Popup-Fenstern. Bitte stellen Sie sicher, dass Sie Popups von dieser Website zulassen."
+  },
+  "pages.supervision.errors.cant_open.title": {
+    "message": "Die Moderationsoberfläche konnte nicht in einem neuen Fenster geöffnet werden."
+  },
+  "pages.supervision.errors.closed.description": {
+    "message": "Die Anmeldung bei der Moderationsschnittstelle ist fehlgeschlagen, da diese geschlossen wurde, bevor die Anmeldung abgeschlossen werden konnte."
+  },
+  "pages.supervision.errors.closed.title": {
+    "message": "Die Moderationsoberfläche wurde vorzeitig geschlossen."
+  },
+  "pages.supervision.errors.generic.title": {
+    "message": "Beim Öffnen der Moderationsoberfläche ist ein unerwarteter Fehler aufgetreten."
+  },
+  "pages.supervision.missing_ui_address.description": {
+    "message": "Moderation ist in Ihrer Umgebung aktiviert, jedoch nicht in Element Web, das für die Funktion der Moderationsoberfläche erforderlich ist."
+  },
+  "pages.supervision.missing_ui_address.title": {
+    "message": "Die Moderationsoberfläche erfordert, dass Element Web aktiviert ist."
+  },
+  "pages.supervision.recovery_key.copied": {
+    "message": "Wiederherstellungsschlüssel kopiert"
+  },
+  "pages.supervision.recovery_key.copy_failed": {
+    "message": "Der Wiederherstellungsschlüssel konnte nicht kopiert werden."
+  },
+  "pages.supervision.recovery_key.help": {
+    "message": "Dies ist der Wiederherstellungsschlüssel, der zum Lesen verschlüsselter Nachrichten benötigt wird."
+  },
+  "pages.supervision.recovery_key.label": {
+    "message": "Wiederherstellungsschlüssel"
+  },
+  "pages.supervision.title": {
+    "message": "Moderation"
+  },
+  "pages.supervision.unavailable_alert.description": {
+    "message": "Diese Funktion ist in ESS Community nicht verfügbar. Wechseln Sie zu ESS Pro, um sie zu aktivieren."
+  },
+  "pages.supervision.unavailable_alert.title": {
+    "message": "Moderation ist eine Funktion, die in ESS Pro verfügbar ist."
   },
   "pages.users.add_email.button": {
     "message": "E-Mail hinzufügen"
@@ -912,7 +912,7 @@
     "message": "Wähle deine bevorzugte Sprache für die Benutzeroberfläche"
   },
   "ui.language_switcher.language_list_label": {
-    "message": "List of available languages"
+    "message": "Liste der verfügbaren Sprachen"
   },
   "ui.language_switcher.title": {
     "message": "Spracheinstellungen"

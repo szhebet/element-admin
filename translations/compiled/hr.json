@@ -2,85 +2,85 @@
   "action.add": [
     {
       "type": 0,
-      "value": "Legg til"
+      "value": "Dodaj"
     }
   ],
   "action.cancel": [
     {
       "type": 0,
-      "value": "Avbryt"
+      "value": "Otkaži"
     }
   ],
   "action.clear": [
     {
       "type": 0,
-      "value": "Tøm"
+      "value": "Očisti"
     }
   ],
   "action.close": [
     {
       "type": 0,
-      "value": "Lukk"
+      "value": "Zatvori"
     }
   ],
   "action.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "Kopiraj"
     }
   ],
   "action.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Izbriši"
     }
   ],
   "action.go_back": [
     {
       "type": 0,
-      "value": "Gå tilbake"
+      "value": "Idi natrag"
     }
   ],
   "action.remove": [
     {
       "type": 0,
-      "value": "Fjern"
+      "value": "Ukloni"
     }
   ],
   "action.retry": [
     {
       "type": 0,
-      "value": "Prøv på nytt"
+      "value": "Pokušaj ponovno"
     }
   ],
   "action.sign_in": [
     {
       "type": 0,
-      "value": "Sign in"
+      "value": "Prijava"
     }
   ],
   "action.sign_out": [
     {
       "type": 0,
-      "value": "Logg ut"
+      "value": "Odjava"
     }
   ],
   "common.email_address": [
     {
       "type": 0,
-      "value": "E-postadresse"
+      "value": "E-adresa"
     }
   ],
   "common.filter": [
     {
       "type": 0,
-      "value": "Filtre"
+      "value": "Filtriraj"
     }
   ],
   "errors.http_fetch": [
     {
       "type": 0,
-      "value": "Forespørsel til "
+      "value": "Zahtjev za "
     },
     {
       "type": 1,
@@ -88,13 +88,13 @@
     },
     {
       "type": 0,
-      "value": " mislyktes"
+      "value": " nije uspio"
     }
   ],
   "errors.http_fetch_json_decoding": [
     {
       "type": 0,
-      "value": "Kunne ikke dekode JSON-svaret fra "
+      "value": "Nije uspjelo dekodiranje JSON odgovora od "
     },
     {
       "type": 1,
@@ -104,7 +104,7 @@
   "errors.http_status": [
     {
       "type": 0,
-      "value": "Forespørsel til "
+      "value": "Zahtjev za "
     },
     {
       "type": 1,
@@ -112,7 +112,7 @@
     },
     {
       "type": 0,
-      "value": " mislyktes med statuskode "
+      "value": " nije uspio sa statusnim kodom "
     },
     {
       "type": 1,
@@ -130,7 +130,15 @@
   "errors.matrix_standard": [
     {
       "type": 0,
-      "value": "Forespørsel til homeserveren mislyktes med feilkode {errorCode}. I tillegg ga serveren følgende feilmelding: "
+      "value": "Zahtjev matičnom poslužitelju nije uspio s kodom pogreške "
+    },
+    {
+      "type": 1,
+      "value": "errorCode"
+    },
+    {
+      "type": 0,
+      "value": ". Osim toga, poslužitelj je dao sljedeću poruku o pogrešci: "
     },
     {
       "type": 1,
@@ -140,13 +148,13 @@
   "errors.not_logged_in": [
     {
       "type": 0,
-      "value": "Ikke pålogget"
+      "value": "Korisnik nije prijavljen"
     }
   ],
   "footer.copyright_notice": [
     {
       "type": 0,
-      "value": "Copyright © "
+      "value": "Autorsko pravo © "
     },
     {
       "style": {
@@ -163,25 +171,25 @@
   "footer.help_and_support": [
     {
       "type": 0,
-      "value": "Hjelp og støtte"
+      "value": "Pomoć i podrška"
     }
   ],
   "footer.legal": [
     {
       "type": 0,
-      "value": "Juridisk"
+      "value": "Pravne napomene"
     }
   ],
   "footer.privacy": [
     {
       "type": 0,
-      "value": "Personvern"
+      "value": "Privatnost"
     }
   ],
   "header.user_menu.title": [
     {
       "type": 0,
-      "value": "Konto-meny"
+      "value": "Izbornik računa"
     }
   ],
   "marketing.also_available_in_pro.description": [
@@ -199,7 +207,7 @@
         },
         {
           "type": 0,
-          "value": " is the commercial backend distribution from Element."
+          "value": " komercijalna je pozadinska distribucija tvrtke Element."
         }
       ],
       "type": 8,
@@ -213,7 +221,7 @@
       "children": [
         {
           "type": 0,
-          "value": "It includes everything in ESS Community plus additional features and services that are tailored to professional environments with more than 100 users up to massive scale in the millions."
+          "value": "Uključuje sve što nudi ESS Community, a i dodatne značajke i usluge prilagođene profesionalnim okruženjima s više od 100 korisnika pa sve do masovnih sustava s milijunima korisnika."
         }
       ],
       "type": 8,
@@ -227,7 +235,7 @@
       "children": [
         {
           "type": 0,
-          "value": "It is designed to support enterprise requirements in terms of advanced IAM, compliance, scalability, high availability and multi-tenancy."
+          "value": "Dizajniran je tako da podrži zahtjeve velikih organizacija u pogledu naprednog IAM-a, usklađenosti, skalabilnosti, visoke dostupnosti i rada s više odvojenih zakupaca."
         }
       ],
       "type": 8,
@@ -237,13 +245,13 @@
   "marketing.also_available_in_pro.title": [
     {
       "type": 0,
-      "value": "Also available in Pro…"
+      "value": "Također dostupno u inačici Pro…"
     }
   ],
   "marketing.also_available_in_pro.upgrade": [
     {
       "type": 0,
-      "value": "Upgrade to Pro"
+      "value": "Nadogradi na Pro"
     }
   ],
   "marketing.auditing.description": [
@@ -251,7 +259,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Auditing gives organizations the ability to keep records of end-to-end encrypted conversations and room events to meet compliance or legal requirements."
+          "value": "Revizija organizacijama omogućuje vođenje evidencije o sveobuhvatno šifriranim razgovorima i događajima u sobama kako bi se ispunili zahtjevi usklađenosti ili udovoljilo zakonskim propisima."
         }
       ],
       "type": 8,
@@ -265,7 +273,7 @@
       "children": [
         {
           "type": 0,
-          "value": "When enabled, it is visible to all end users which rooms are being recorded to ensure transparency of the auditing process."
+          "value": "Kada je ova značajka omogućena, svim je krajnjim korisnicima vidljivo koje se sobe snimaju kako bi se osigurala transparentnost procesa revizije."
         }
       ],
       "type": 8,
@@ -279,7 +287,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Auditing can be configured to suit an organization’s specific requirements. For instance direct messages between two individuals can be excluded so that only group conversations are recorded."
+          "value": "Revizija se može konfigurirati tako da odgovara specifičnim zahtjevima organizacije. Na primjer, izravne poruke između dvije osobe mogu se isključiti tako da se snimaju samo grupni razgovori."
         }
       ],
       "type": 8,
@@ -293,7 +301,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Audit data is being stored as a stream of machine-readable events in the JSON format either on file storage or S3 and can be forwarded to log analyzer tooling for further filtering and analysis."
+          "value": "Podatci revizije pohranjuju se kao niz strojno čitljivih događaja u JSON obliku na lokalnoj pohrani ili S3 servisu te se mogu proslijediti alatima za analizu zapisnika radi daljnjeg filtriranja i obrade."
         }
       ],
       "type": 8,
@@ -303,7 +311,7 @@
   "marketing.auditing.title": [
     {
       "type": 0,
-      "value": "Auditing"
+      "value": "Revizija"
     }
   ],
   "marketing.supervision.description": [
@@ -311,7 +319,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Supervision enables an organisation to administer all rooms from a central point. A 'supervisor' account will join defined rooms with room admin privileges. Server administrators can seamlessly impersonate the account from the admin console to manage and supervise their rooms."
+          "value": "Moderiranje omogućuje organizaciji upravljanje svim sobama s jedne središnje točke. Moderatorski račun pridružit će se definiranim sobama s administratorskim ovlastima. Administratori poslužitelja mogu se neprimjetno prijaviti u ime tog računa putem administratorske konzole kako bi upravljali svojim sobama i moderirali ih."
         }
       ],
       "type": 8,
@@ -331,7 +339,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Manage rooms and their settings (name, topic, permissions, etc.)"
+              "value": "Upravljanje sobama i njihovim postavkama (naziv, tema, dopuštenja itd.)"
             }
           ],
           "type": 8,
@@ -345,7 +353,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Manage room memberships"
+              "value": "Upravljanje članstvom u sobama"
             }
           ],
           "type": 8,
@@ -359,7 +367,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Remove unwanted messages and uploaded media"
+              "value": "Uklanjanje neželjenih poruka i prenesenih medija"
             }
           ],
           "type": 8,
@@ -373,7 +381,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Recover abandoned rooms (all users have left)"
+              "value": "Vraćanje napuštene sobe (svi korisnici su otišli)"
             }
           ],
           "type": 8,
@@ -387,7 +395,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Supervisor account can or cannot read encrypted message contents (configurable)"
+              "value": "Moderatorski račun može ili ne može čitati sadržaj šifriranih poruka (podesivo)"
             }
           ],
           "type": 8,
@@ -405,133 +413,133 @@
   "marketing.supervision.title": [
     {
       "type": 0,
-      "value": "Supervision"
+      "value": "Moderiranje"
     }
   ],
   "navigation.auditing": [
     {
       "type": 0,
-      "value": "Auditing"
+      "value": "Revizija"
     }
   ],
   "navigation.dashboard": [
     {
       "type": 0,
-      "value": "Dashbord"
+      "value": "Nadzorna ploča"
     }
   ],
   "navigation.documentation": [
     {
       "type": 0,
-      "value": "Dokumentasjon"
+      "value": "Dokumentacija"
     }
   ],
   "navigation.personal_tokens": [
     {
       "type": 0,
-      "value": "Personlige tokens"
+      "value": "Osobni tokeni"
     }
   ],
   "navigation.registration_tokens": [
     {
       "type": 0,
-      "value": "Registreringstokener"
+      "value": "Registracijski tokeni"
     }
   ],
   "navigation.rooms": [
     {
       "type": 0,
-      "value": "Rom"
+      "value": "Sobe"
     }
   ],
   "navigation.supervision": [
     {
       "type": 0,
-      "value": "Supervision"
+      "value": "Moderiranje"
     }
   ],
   "navigation.users": [
     {
       "type": 0,
-      "value": "Brukere"
+      "value": "Korisnici"
     }
   ],
   "pages.auditing.title": [
     {
       "type": 0,
-      "value": "Auditing"
+      "value": "Revizija"
     }
   ],
   "pages.auditing.unavailable_alert.description": [
     {
       "type": 0,
-      "value": "This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
+      "value": "Ova značajka nije dostupna u inačici ESS Community. Nadogradite na ESS Pro kako biste je omogućili."
     }
   ],
   "pages.auditing.unavailable_alert.title": [
     {
       "type": 0,
-      "value": "Auditing is a feature available in ESS Pro"
+      "value": "Revizija je značajka dostupna u inačici ESS Pro"
     }
   ],
   "pages.dashboard.current_ess_version": [
     {
       "type": 0,
-      "value": "ESS-versjon"
+      "value": "Inačica ESS-a"
     }
   ],
   "pages.dashboard.latest_ess_version": [
     {
       "type": 0,
-      "value": "Siste ESS-versjon"
+      "value": "Najnovija inačica ESS-a"
     }
   ],
   "pages.dashboard.new_ess_release": [
     {
       "type": 0,
-      "value": "(Ny versjon)"
+      "value": "(Novo izdanje)"
     }
   ],
   "pages.dashboard.registered_users_count": [
     {
       "type": 0,
-      "value": "Brukere registrert"
+      "value": "Registrirani korisnici"
     }
   ],
   "pages.dashboard.rooms_count": [
     {
       "type": 0,
-      "value": "Totalt antall rom"
+      "value": "Ukupno soba"
     }
   ],
   "pages.dashboard.running_latest_ess": [
     {
       "type": 0,
-      "value": "(Du kjører den nyeste versjonen)"
+      "value": "(Upotrebljavate najnoviju inačicu)"
     }
   ],
   "pages.dashboard.synapse_version": [
     {
       "type": 0,
-      "value": "Synapse-versjon"
+      "value": "Inačica Synapse"
     }
   ],
   "pages.dashboard.title": [
     {
       "type": 0,
-      "value": "Dashbord"
+      "value": "Nadzorna ploča"
     }
   ],
   "pages.generic_error.go_home": [
     {
       "type": 0,
-      "value": "Gå hjem"
+      "value": "Idi na početnu stranicu"
     }
   ],
   "pages.generic_error.sign_out_and_reload": [
     {
       "type": 0,
-      "value": "Logg ut og last inn på nytt"
+      "value": "Odjavi se i ponovno prijavi"
     }
   ],
   "pages.generic_error.technical_details.item": [
@@ -541,7 +549,7 @@
     },
     {
       "type": 0,
-      "value": ":"
+      "value": ": "
     },
     {
       "type": 1,
@@ -551,91 +559,91 @@
   "pages.generic_error.text": [
     {
       "type": 0,
-      "value": "Dette kan være et resultat av en feil eller at det ikke lykkes å nå hjemmeserveren. Du kan prøve å laste inn siden på nytt, gå tilbake til forrige side eller tilbakestille alt og gå tilbake til hjemmesiden."
+      "value": "To može biti posljedica pogreške ili nemogućnosti povezivanja s matičnim poslužiteljem. Možete ponovno pokušati učitati stranicu, vratiti se na prethodnu stranicu ili sve poništiti i vratiti se na početnu stranicu."
     }
   ],
   "pages.generic_error.title": [
     {
       "type": 0,
-      "value": "Det oppsto en uventet feil"
+      "value": "Došlo je do neočekivane pogreške"
     }
   ],
   "pages.landing.description": [
     {
       "type": 0,
-      "value": "Administrer utrullingen av Element-appen for organisasjonen eller fellesskapet ditt."
+      "value": "Upravljajte implementacijom aplikacije Element za svoju organizaciju ili zajednicu."
     }
   ],
   "pages.login.errors.no_auth_metadata": [
     {
       "type": 0,
-      "value": "Kunne ikke laste inn serverens autentiseringsmetadata. Synapse kan være utilgjengelig eller ikke konfigurert til å bruke Matrix Authentication Service."
+      "value": "Nije uspjelo učitavanje metapodataka za provjeru autentičnosti poslužitelja. Synapse možda nije dostupan ili nije konfiguriran za korištenje usluge Matrix Authentication Service."
     }
   ],
   "pages.login.errors.no_client_metadata": [
     {
       "type": 0,
-      "value": "Kunne ikke registrere klienten. Matrix Authentication Service kan være utilgjengelig eller feilkonfigurert."
+      "value": "Registracija klijenta nije uspjela. Matrix Authentication Service možda nije dostupan ili je pogrešno konfiguriran."
     }
   ],
   "pages.login.errors.no_well_known": [
     {
       "type": 0,
-      "value": "Kunne ikke laste inn serverens \"well-known\" dokument. Servernavnet kan være ugyldig."
+      "value": "Nije uspjelo učitavanje dobro poznatog dokumenta poslužitelja. Naziv poslužitelja možda nije valjan."
     }
   ],
   "pages.login.get_started": [
     {
       "type": 0,
-      "value": "Kom i gang"
+      "value": "Započni autorizaciju"
     }
   ],
   "pages.login.server_name": [
     {
       "type": 0,
-      "value": "Navn på server"
+      "value": "Naziv poslužitelja"
     }
   ],
   "pages.login.title": [
     {
       "type": 0,
-      "value": "Logg inn"
+      "value": "Prijava"
     }
   ],
   "pages.personal_tokens.acting_user_column": [
     {
       "type": 0,
-      "value": "Acting User"
+      "value": "Korisnik-izvršitelj"
     }
   ],
   "pages.personal_tokens.acting_user_label": [
     {
       "type": 0,
-      "value": "Acting user"
+      "value": "Korisnik-izvršitelj"
     }
   ],
   "pages.personal_tokens.actor_user_help": [
     {
       "type": 0,
-      "value": "Brukeren dette tokenet vil handle på vegne av"
+      "value": "Korisnik u čije ime će ovaj token djelovati"
     }
   ],
   "pages.personal_tokens.actor_user_label": [
     {
       "type": 0,
-      "value": "Acting user"
+      "value": "Korisnik-izvršitelj"
     }
   ],
   "pages.personal_tokens.add_token_title": [
     {
       "type": 0,
-      "value": "Legg til personlig token"
+      "value": "Dodaj osobni token"
     }
   ],
   "pages.personal_tokens.cant_regenerate_tooltip": [
     {
       "type": 0,
-      "value": "Bare "
+      "value": "Samo "
     },
     {
       "type": 1,
@@ -643,13 +651,13 @@
     },
     {
       "type": 0,
-      "value": " kan regenerere dette tokenet"
+      "value": " može ponovno generirati ovaj token"
     }
   ],
   "pages.personal_tokens.cant_regenerate_tooltip_generic": [
     {
       "type": 0,
-      "value": "Bare eieren av tokenet kan generere det på nytt"
+      "value": "Samo vlasnik tokena može ga ponovno generirati"
     }
   ],
   "pages.personal_tokens.count": [
@@ -660,7 +668,7 @@
           "value": [
             {
               "type": 0,
-              "value": "No personal tokens"
+              "value": "Nema osobnih tokena"
             }
           ]
         },
@@ -671,7 +679,7 @@
             },
             {
               "type": 0,
-              "value": " personal token"
+              "value": " osobni token"
             }
           ]
         },
@@ -682,7 +690,7 @@
             },
             {
               "type": 0,
-              "value": " personal tokens"
+              "value": " osobnih tokena"
             }
           ]
         }
@@ -695,43 +703,43 @@
   "pages.personal_tokens.create_error": [
     {
       "type": 0,
-      "value": "Kunne ikke opprette personlig token"
+      "value": "Nije uspjela izrada osobnog tokena"
     }
   ],
   "pages.personal_tokens.create_success": [
     {
       "type": 0,
-      "value": "Personlig token opprettet"
+      "value": "Osobni token uspješno je izrađen"
     }
   ],
   "pages.personal_tokens.create_token": [
     {
       "type": 0,
-      "value": "Opprett token"
+      "value": "Izradi token"
     }
   ],
   "pages.personal_tokens.created_at_label": [
     {
       "type": 0,
-      "value": "Created at"
+      "value": "Izrađen dana"
     }
   ],
   "pages.personal_tokens.description": [
     {
       "type": 0,
-      "value": "Personlige tokener er tilgangstokener med lang levetid og spesifikk tilgang, inkludert Synapse- og MAS-administrasjons-API-tilgang. De er nyttige for å automatisere oppgaver og for å lage integrasjoner."
+      "value": "Osobni tokeni dugotrajni su pristupni tokeni sa specifičnim pristupom, uključujući pristup Synapseovu i MAS-ovu administratorskom API-ju. Korisni su za automatizaciju zadataka i stvaranje integracija."
     }
   ],
   "pages.personal_tokens.device_id_help": [
     {
       "type": 0,
-      "value": "La feltet stå tomt for å generere en tilfeldig enhets-ID på 10 tegn"
+      "value": "Ostavite prazno za generiranje nasumičnih 10-znamenkastih ID-ova uređaja"
     }
   ],
   "pages.personal_tokens.device_id_label": [
     {
       "type": 0,
-      "value": "Enhets-ID"
+      "value": "ID uređaja"
     }
   ],
   "pages.personal_tokens.device_id_placeholder": [
@@ -743,25 +751,25 @@
   "pages.personal_tokens.expires_at_column": [
     {
       "type": 0,
-      "value": "Expires at"
+      "value": "Istječe na"
     }
   ],
   "pages.personal_tokens.expires_at_label": [
     {
       "type": 0,
-      "value": "Expires at"
+      "value": "Istječe dana"
     }
   ],
   "pages.personal_tokens.expires_in_help": [
     {
       "type": 0,
-      "value": "La feltet stå tomt for tokens som aldri utløper"
+      "value": "Ostavite prazno za tokene koji nikada ne istječu"
     }
   ],
   "pages.personal_tokens.expires_in_label": [
     {
       "type": 0,
-      "value": "Utløper om (dager)"
+      "value": "Istječe za (dani)"
     }
   ],
   "pages.personal_tokens.expires_in_placeholder": [
@@ -773,217 +781,217 @@
   "pages.personal_tokens.filter.active": [
     {
       "type": 0,
-      "value": "Aktiv"
+      "value": "Aktivan"
     }
   ],
   "pages.personal_tokens.filter.expires": [
     {
       "type": 0,
-      "value": "Med en utløpsdato"
+      "value": "S datumom isteka"
     }
   ],
   "pages.personal_tokens.filter.no_expiry": [
     {
       "type": 0,
-      "value": "Utløper aldri"
+      "value": "Nikad ne istječe"
     }
   ],
   "pages.personal_tokens.filter.revoked": [
     {
       "type": 0,
-      "value": "Tilbakekalt"
+      "value": "Opozvan"
     }
   ],
   "pages.personal_tokens.filter.scope_mas_admin": [
     {
       "type": 0,
-      "value": "Tilgang til MAS admin APIet"
+      "value": "Pristup MAS-ovu administratorskom API-ju"
     }
   ],
   "pages.personal_tokens.filter.scope_matrix_client": [
     {
       "type": 0,
-      "value": "Tilgang til Matrix Client-Server APIet"
+      "value": "Pristup Matrixovu Client-Server API-ju"
     }
   ],
   "pages.personal_tokens.filter.scope_synapse_admin": [
     {
       "type": 0,
-      "value": "Tilgang til Synapse admin APIet"
+      "value": "Pristup Synapseovu administratorskom API-ju"
     }
   ],
   "pages.personal_tokens.last_active_column": [
     {
       "type": 0,
-      "value": "Sist aktiv"
+      "value": "Posljednji put aktivan"
     }
   ],
   "pages.personal_tokens.last_active_ip_label": [
     {
       "type": 0,
-      "value": "Siste aktive IP-adresse"
+      "value": "Posljednji aktivan IP"
     }
   ],
   "pages.personal_tokens.last_active_label": [
     {
       "type": 0,
-      "value": "Sist aktiv"
+      "value": "Posljednji aktivan"
     }
   ],
   "pages.personal_tokens.loading_more": [
     {
       "type": 0,
-      "value": "Laster inn flere tokens..."
+      "value": "U tijeku je učitavanje još tokena..."
     }
   ],
   "pages.personal_tokens.name_column": [
     {
       "type": 0,
-      "value": "Navn"
+      "value": "Naziv"
     }
   ],
   "pages.personal_tokens.name_help": [
     {
       "type": 0,
-      "value": "Et menneskelig lesbart navn for tokenet, for å hjelpe deg med å identifisere det"
+      "value": "Naziv tokena koji je čitljiv ljudima, kako biste ga lakše identificirali"
     }
   ],
   "pages.personal_tokens.name_label": [
     {
       "type": 0,
-      "value": "Navn på token"
+      "value": "Naziv tokena"
     }
   ],
   "pages.personal_tokens.name_placeholder": [
     {
       "type": 0,
-      "value": "Mitt applikasjonstoken"
+      "value": "Token moje aplikacije"
     }
   ],
   "pages.personal_tokens.never_expires": [
     {
       "type": 0,
-      "value": "Utløper aldri"
+      "value": "Nikad ne istječe"
     }
   ],
   "pages.personal_tokens.never_used": [
     {
       "type": 0,
-      "value": "Aldri brukt"
+      "value": "Nikad nije korišten"
     }
   ],
   "pages.personal_tokens.not_found.description": [
     {
       "type": 0,
-      "value": "The personal token you're looking for doesn't exist or has been removed."
+      "value": "Osobni token koji tražite ne postoji ili je uklonjen."
     }
   ],
   "pages.personal_tokens.not_found.title": [
     {
       "type": 0,
-      "value": "Personal token not found"
+      "value": "Osobni token nije pronađen"
     }
   ],
   "pages.personal_tokens.owner_user_label": [
     {
       "type": 0,
-      "value": "Owner"
+      "value": "Vlasnik"
     }
   ],
   "pages.personal_tokens.regenerate_confirm": [
     {
       "type": 0,
-      "value": "Regenerate token"
+      "value": "Ponovno generiraj token"
     }
   ],
   "pages.personal_tokens.regenerate_error": [
     {
       "type": 0,
-      "value": "Failed to regenerate personal token"
+      "value": "Nije uspjelo ponovno generiranje osobnog tokena"
     }
   ],
   "pages.personal_tokens.regenerate_expires_help": [
     {
       "type": 0,
-      "value": "Leave empty to keep the same expiry as before, or set a new expiry time"
+      "value": "Ostavite prazno da biste zadržali isti rok trajanja kao i prije ili postavite novo vrijeme isteka"
     }
   ],
   "pages.personal_tokens.regenerate_success": [
     {
       "type": 0,
-      "value": "Personal token regenerated successfully"
+      "value": "Osobni token uspješno je ponovno generiran"
     }
   ],
   "pages.personal_tokens.regenerate_token": [
     {
       "type": 0,
-      "value": "Regenerate token"
+      "value": "Ponovno generiraj token"
     }
   ],
   "pages.personal_tokens.regenerate_token_title": [
     {
       "type": 0,
-      "value": "Regenerate personal token"
+      "value": "Ponovno generiraj osobni token"
     }
   ],
   "pages.personal_tokens.regenerate_warning": [
     {
       "type": 0,
-      "value": "This will generate a new access token and invalidate the current one. Any applications using the current token will need to be updated."
+      "value": "Ovim će se generirati novi pristupni token i poništiti trenutačni. Sve aplikacije koje upotrebljavaju trenutačni token morat će se ažurirati."
     }
   ],
   "pages.personal_tokens.revoke_success": [
     {
       "type": 0,
-      "value": "Personal token revoked successfully"
+      "value": "Osobni token uspješno je opozvan"
     }
   ],
   "pages.personal_tokens.revoke_token": [
     {
       "type": 0,
-      "value": "Revoke token"
+      "value": "Opozovi token"
     }
   ],
   "pages.personal_tokens.revoked_at_label": [
     {
       "type": 0,
-      "value": "Revoked at"
+      "value": "Opozvan dana"
     }
   ],
   "pages.personal_tokens.scope_device_help": [
     {
       "type": 0,
-      "value": "Provision a Matrix device"
+      "value": "Priprema Matrixova uređaja"
     }
   ],
   "pages.personal_tokens.scope_mas_admin_help": [
     {
       "type": 0,
-      "value": "Access to the MAS admin API"
+      "value": "Pristup MAS-ovu administratorskom API-ju"
     }
   ],
   "pages.personal_tokens.scope_matrix_client_help": [
     {
       "type": 0,
-      "value": "Access to the Matrix Client-Server API"
+      "value": "Pristup Matrixovu Client-Server API-ju"
     }
   ],
   "pages.personal_tokens.scope_synapse_admin_help": [
     {
       "type": 0,
-      "value": "Access to the Synapse admin API"
+      "value": "Pristup Synapseovu administratorskom API-ju"
     }
   ],
   "pages.personal_tokens.scopes_label": [
     {
       "type": 0,
-      "value": "Scopes"
+      "value": "Opsezi"
     }
   ],
   "pages.personal_tokens.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktivan"
     }
   ],
   "pages.personal_tokens.status.column": [
@@ -995,7 +1003,7 @@
   "pages.personal_tokens.status.expired": [
     {
       "type": 0,
-      "value": "Expired"
+      "value": "Istekao"
     }
   ],
   "pages.personal_tokens.status.label": [
@@ -1007,175 +1015,175 @@
   "pages.personal_tokens.status.revoked": [
     {
       "type": 0,
-      "value": "Revoked"
+      "value": "Opozvan"
     }
   ],
   "pages.personal_tokens.title": [
     {
       "type": 0,
-      "value": "Personlige tokens"
+      "value": "Osobni tokeni"
     }
   ],
   "pages.personal_tokens.token_created_description": [
     {
       "type": 0,
-      "value": "Your personal token has been created. Copy it now as it will not be shown again."
+      "value": "Vaš je osobni token izrađen. Kopirajte ga sada jer se više neće prikazivati."
     }
   ],
   "pages.personal_tokens.token_created_title": [
     {
       "type": 0,
-      "value": "Personal token created"
+      "value": "Osobni token je izrađen"
     }
   ],
   "pages.personal_tokens.token_regenerated_description": [
     {
       "type": 0,
-      "value": "Your personal token has been regenerated. Copy it now as it will not be shown again."
+      "value": "Vaš osobni token ponovno je generiran. Kopirajte ga sada jer se više neće prikazivati."
     }
   ],
   "pages.personal_tokens.token_regenerated_title": [
     {
       "type": 0,
-      "value": "Token regenerated"
+      "value": "Token je ponovno generiran"
     }
   ],
   "pages.registration_tokens.auto_generate_placeholder": [
     {
       "type": 0,
-      "value": "Generer automatisk hvis feltet står tomt"
+      "value": "Automatski generiraj ako se ostavi prazno"
     }
   ],
   "pages.registration_tokens.create_token.error": [
     {
       "type": 0,
-      "value": "Kunne ikke opprette token"
+      "value": "Izrada tokena nije uspjela"
     }
   ],
   "pages.registration_tokens.create_token.submit": [
     {
       "type": 0,
-      "value": "Opprett token"
+      "value": "Izradi token"
     }
   ],
   "pages.registration_tokens.create_token.success": [
     {
       "type": 0,
-      "value": "Token opprettet"
+      "value": "Token je uspješno izrađen"
     }
   ],
   "pages.registration_tokens.create_token.title": [
     {
       "type": 0,
-      "value": "Opprett registreringstoken"
+      "value": "Izradi registracijski token"
     }
   ],
   "pages.registration_tokens.created_at_column": [
     {
       "type": 0,
-      "value": "Opprettet kl."
+      "value": "Izrađen u"
     }
   ],
   "pages.registration_tokens.created_at_label": [
     {
       "type": 0,
-      "value": "Opprettet kl."
+      "value": "Izrađen dana"
     }
   ],
   "pages.registration_tokens.custom_token_help": [
     {
       "type": 0,
-      "value": "Valgfri tilpasset tokenstreng. Hvis feltet er tomt, genereres det automatisk et sikkert token."
+      "value": "Neobavezni prilagođeni niz tokena. Ako se ostavi prazno, automatski će se generirati zaštićeni token."
     }
   ],
   "pages.registration_tokens.custom_token_label": [
     {
       "type": 0,
-      "value": "Egendefinert token"
+      "value": "Prilagođeni token"
     }
   ],
   "pages.registration_tokens.edit_properties": [
     {
       "type": 0,
-      "value": "Rediger egenskaper"
+      "value": "Uredi svojstva"
     }
   ],
   "pages.registration_tokens.edit_token_title": [
     {
       "type": 0,
-      "value": "Rediger registreringstoken"
+      "value": "Uredi registracijski token"
     }
   ],
   "pages.registration_tokens.expires_at_field": [
     {
       "type": 0,
-      "value": "Utløper kl."
+      "value": "Istječe na"
     }
   ],
   "pages.registration_tokens.expires_at_help": [
     {
       "type": 0,
-      "value": "Når tokenet utløper. La feltet være tomt hvis tokenet aldri skal utløpe."
+      "value": "Kada token istekne. Ostavite prazno ako token nikada ne bi trebao isteći."
     }
   ],
   "pages.registration_tokens.expires_at_label": [
     {
       "type": 0,
-      "value": "Utløper kl."
+      "value": "Istječe dana"
     }
   ],
   "pages.registration_tokens.filters.active_only": [
     {
       "type": 0,
-      "value": "Aktiv"
+      "value": "Aktivan"
     }
   ],
   "pages.registration_tokens.filters.expired_only": [
     {
       "type": 0,
-      "value": "Utløpt"
+      "value": "Istekao"
     }
   ],
   "pages.registration_tokens.filters.revoked_only": [
     {
       "type": 0,
-      "value": "Tilbakekalt"
+      "value": "Opozvan"
     }
   ],
   "pages.registration_tokens.filters.unused_only": [
     {
       "type": 0,
-      "value": "Ubrukt"
+      "value": "Nekorišten"
     }
   ],
   "pages.registration_tokens.filters.used_only": [
     {
       "type": 0,
-      "value": "Brukt"
+      "value": "Korišten"
     }
   ],
   "pages.registration_tokens.loading_more": [
     {
       "type": 0,
-      "value": "Laster inn flere tokener..."
+      "value": "U tijeku je učitavanje još tokena..."
     }
   ],
   "pages.registration_tokens.never_expires": [
     {
       "type": 0,
-      "value": "Utløper aldri"
+      "value": "Nikad ne istječe"
     }
   ],
   "pages.registration_tokens.no_expiration_placeholder": [
     {
       "type": 0,
-      "value": "Ingen utløpsdato"
+      "value": "Nema isteka"
     }
   ],
   "pages.registration_tokens.not_found.description": [
     {
       "type": 0,
-      "value": "Det forespurte registreringstokenet ("
+      "value": "Zatraženi registracijski token ("
     },
     {
       "type": 1,
@@ -1183,7 +1191,7 @@
     },
     {
       "type": 0,
-      "value": ") ble ikke funnet på "
+      "value": " ) nije pronađen na poslužitelju "
     },
     {
       "type": 1,
@@ -1197,31 +1205,31 @@
   "pages.registration_tokens.not_found.title": [
     {
       "type": 0,
-      "value": "Registreringstoken ikke funnet"
+      "value": "Registracijski token nije pronađen"
     }
   ],
   "pages.registration_tokens.revoke_token": [
     {
       "type": 0,
-      "value": "Tilbakekall token"
+      "value": "Opozovi token"
     }
   ],
   "pages.registration_tokens.revoked_at_label": [
     {
       "type": 0,
-      "value": "Tilbakekalt kl."
+      "value": "Opozvan dana"
     }
   ],
   "pages.registration_tokens.save_changes": [
     {
       "type": 0,
-      "value": "Lagre endringer"
+      "value": "Spremi promjene"
     }
   ],
   "pages.registration_tokens.status.active": [
     {
       "type": 0,
-      "value": "Aktiv"
+      "value": "Aktivan"
     }
   ],
   "pages.registration_tokens.status.column": [
@@ -1233,13 +1241,13 @@
   "pages.registration_tokens.status.expired": [
     {
       "type": 0,
-      "value": "Utløpt"
+      "value": "Istekao"
     }
   ],
   "pages.registration_tokens.status.invalid": [
     {
       "type": 0,
-      "value": "Ugyldig"
+      "value": "Nevažeći"
     }
   ],
   "pages.registration_tokens.status.label": [
@@ -1251,19 +1259,19 @@
   "pages.registration_tokens.status.revoked": [
     {
       "type": 0,
-      "value": "Tilbakekalt"
+      "value": "Opozvan"
     }
   ],
   "pages.registration_tokens.status.used_up": [
     {
       "type": 0,
-      "value": "Brukt opp"
+      "value": "Iskorišten"
     }
   ],
   "pages.registration_tokens.title": [
     {
       "type": 0,
-      "value": "Registreringstokener"
+      "value": "Registracijski tokeni"
     }
   ],
   "pages.registration_tokens.token_column": [
@@ -1294,7 +1302,7 @@
             },
             {
               "type": 0,
-              "value": " token"
+              "value": " tokena"
             }
           ]
         },
@@ -1302,7 +1310,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Ingen token"
+              "value": "Nema tokena"
             }
           ]
         }
@@ -1320,7 +1328,7 @@
     },
     {
       "type": 0,
-      "value": " / "
+      "value": "/"
     },
     {
       "style": null,
@@ -1336,115 +1344,115 @@
     },
     {
       "type": 0,
-      "value": " / ∞"
+      "value": "/∞"
     }
   ],
   "pages.registration_tokens.unlimited_placeholder": [
     {
       "type": 0,
-      "value": "Ubegrenset"
+      "value": "Neograničeno"
     }
   ],
   "pages.registration_tokens.unlimited_uses_placeholder": [
     {
       "type": 0,
-      "value": "La feltet stå tomt for ubegrenset bruk"
+      "value": "Ostavite prazno za neograničenu upotrebu"
     }
   ],
   "pages.registration_tokens.unrevoke_token": [
     {
       "type": 0,
-      "value": "Opphev tilbakekalling av token"
+      "value": "Poništi opoziv tokena"
     }
   ],
   "pages.registration_tokens.usage_count_label": [
     {
       "type": 0,
-      "value": "Brukstall"
+      "value": "Broj upotreba"
     }
   ],
   "pages.registration_tokens.usage_limit_field": [
     {
       "type": 0,
-      "value": "Bruksbegrensning"
+      "value": "Ograničenje upotrebe"
     }
   ],
   "pages.registration_tokens.usage_limit_help": [
     {
       "type": 0,
-      "value": "Maksimalt antall ganger dette tokenet kan brukes. La feltet stå tomt for ubegrenset bruk."
+      "value": "Maksimalan broj upotreba ovog tokena. Ostavite prazno za neograničenu upotrebu."
     }
   ],
   "pages.registration_tokens.usage_limit_label": [
     {
       "type": 0,
-      "value": "Bruksgrense"
+      "value": "Ograničenje upotrebe"
     }
   ],
   "pages.registration_tokens.uses_column": [
     {
       "type": 0,
-      "value": "Bruksområder"
+      "value": "Upotrebe"
     }
   ],
   "pages.registration_tokens.valid_until_column": [
     {
       "type": 0,
-      "value": "Gyldig til"
+      "value": "Vrijedi do"
     }
   ],
   "pages.rooms.delete_room.alert.description": [
     {
       "type": 0,
-      "value": "This will permanently delete all messages or media uploaded to the server and remove this room from the directory. Members will lose access to their messages and the room will be removed from their room list."
+      "value": "Ovim će se trajno izbrisati sve poruke ili mediji preneseni na poslužitelj i ukloniti ova soba iz direktorija. Članovi će izgubiti pristup svojim porukama, a soba će se ukloniti s njihova popisa soba."
     }
   ],
   "pages.rooms.delete_room.alert.title": [
     {
       "type": 0,
-      "value": "You’re about to delete room data"
+      "value": "Izbrisat ćete podatke o sobi"
     }
   ],
   "pages.rooms.delete_room.block.help": [
     {
       "type": 0,
-      "value": "Prevent users from rejoining the room after deletion."
+      "value": "Spriječite korisnike da se ponovno pridruže sobi nakon brisanja."
     }
   ],
   "pages.rooms.delete_room.block.label": [
     {
       "type": 0,
-      "value": "Block room"
+      "value": "Blokiraj sobu"
     }
   ],
   "pages.rooms.delete_room.button": [
     {
       "type": 0,
-      "value": "Delete permanently"
+      "value": "Trajno izbriši"
     }
   ],
   "pages.rooms.delete_room.error": [
     {
       "type": 0,
-      "value": "Failed to schedule room deletion"
+      "value": "Zakazivanje brisanja sobe nije uspjelo"
     }
   ],
   "pages.rooms.delete_room.success": [
     {
       "type": 0,
-      "value": "Room deletion scheduled"
+      "value": "Brisanje sobe je zakazano"
     }
   ],
   "pages.rooms.delete_room.title": [
     {
       "type": 0,
-      "value": "Delete this room?"
+      "value": "Želite li izbrisati ovu sobu?"
     }
   ],
   "pages.rooms.deletion.failure.description": [
     {
       "type": 0,
-      "value": "Room deletion task failed on "
+      "value": "Zadatak brisanja sobe nije uspio dana "
     },
     {
       "style": "short",
@@ -1453,7 +1461,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " u "
     },
     {
       "style": "short",
@@ -1462,7 +1470,7 @@
     },
     {
       "type": 0,
-      "value": " with error: "
+      "value": " s pogreškom: "
     },
     {
       "type": 1,
@@ -1472,13 +1480,13 @@
   "pages.rooms.deletion.failure.title": [
     {
       "type": 0,
-      "value": "Deletion failed"
+      "value": "Brisanje nije uspjelo"
     }
   ],
   "pages.rooms.deletion.in_progress.description": [
     {
       "type": 0,
-      "value": "Room deletion task is in progress since "
+      "value": "Zadatak brisanja sobe u tijeku je od "
     },
     {
       "style": "short",
@@ -1487,7 +1495,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " u "
     },
     {
       "style": "short",
@@ -1502,13 +1510,13 @@
   "pages.rooms.deletion.in_progress.title": [
     {
       "type": 0,
-      "value": "Deletion in progress"
+      "value": "Brisanje je u tijeku"
     }
   ],
   "pages.rooms.deletion.success.description": [
     {
       "type": 0,
-      "value": "Room deletion task completed successfully on "
+      "value": "Zadatak brisanja sobe uspješno je završen dana "
     },
     {
       "style": "short",
@@ -1517,7 +1525,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " u "
     },
     {
       "style": "short",
@@ -1532,37 +1540,37 @@
   "pages.rooms.deletion.success.title": [
     {
       "type": 0,
-      "value": "Deletion successful"
+      "value": "Brisanje je uspješno završeno"
     }
   ],
   "pages.rooms.filters.empty_rooms": [
     {
       "type": 0,
-      "value": "Tomme rom"
+      "value": "Prazne sobe"
     }
   ],
   "pages.rooms.filters.non_empty_rooms": [
     {
       "type": 0,
-      "value": "Ikke-tomme rom"
+      "value": "Sobe s članovima"
     }
   ],
   "pages.rooms.filters.private_rooms": [
     {
       "type": 0,
-      "value": "Private rom"
+      "value": "Privatne sobe"
     }
   ],
   "pages.rooms.filters.public_rooms": [
     {
       "type": 0,
-      "value": "Offentlige rom"
+      "value": "Javne sobe"
     }
   ],
   "pages.rooms.not_found.description": [
     {
       "type": 0,
-      "value": "Det forespurte rommet ("
+      "value": "Tražena soba ("
     },
     {
       "type": 1,
@@ -1570,7 +1578,7 @@
     },
     {
       "type": 0,
-      "value": " ) ble ikke funnet på "
+      "value": " ) nije pronađena na poslužitelju "
     },
     {
       "type": 1,
@@ -1578,13 +1586,13 @@
     },
     {
       "type": 0,
-      "value": " ."
+      "value": "."
     }
   ],
   "pages.rooms.not_found.title": [
     {
       "type": 0,
-      "value": "Rom ikke funnet"
+      "value": "Soba nije pronađena"
     }
   ],
   "pages.rooms.room_count": [
@@ -1598,7 +1606,7 @@
             },
             {
               "type": 0,
-              "value": " rom"
+              "value": " soba"
             }
           ]
         },
@@ -1609,7 +1617,7 @@
             },
             {
               "type": 0,
-              "value": " rom"
+              "value": " soba"
             }
           ]
         },
@@ -1617,7 +1625,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Ingen rom"
+              "value": "Nema soba"
             }
           ]
         }
@@ -1630,13 +1638,13 @@
   "pages.rooms.title": [
     {
       "type": 0,
-      "value": "Rom"
+      "value": "Sobe"
     }
   ],
   "pages.supervision.description": [
     {
       "type": 0,
-      "value": "Sign in as "
+      "value": "Prijavite se kao "
     },
     {
       "children": [
@@ -1650,199 +1658,199 @@
     },
     {
       "type": 0,
-      "value": " to perform administrative actions in any room."
+      "value": " kako biste mogli obavljati administratorske radnje u bilo kojoj sobi."
     }
   ],
   "pages.supervision.disabled_alert.description": [
     {
       "type": 0,
-      "value": "This feature is part of your subscription. You can ask an administrator to enable it."
+      "value": "Ova je značajka dio vaše pretplate. Možete zamoliti administratora da je omogući."
     }
   ],
   "pages.supervision.disabled_alert.title": [
     {
       "type": 0,
-      "value": "Supervision is currently disabled"
+      "value": "Moderiranje je trenutačno onemogućeno"
     }
   ],
   "pages.supervision.errors.cant_open.description": [
     {
       "type": 0,
-      "value": "Your browser is blocking the opening of pop-up windows. Please make sure you allow pop-ups from this site."
+      "value": "Vaš preglednik blokira otvaranje skočnih prozora. Obavezno dopustite skočne prozore s ovog mrežnog mjesta."
     }
   ],
   "pages.supervision.errors.cant_open.title": [
     {
       "type": 0,
-      "value": "Failed to open the supervision interface in a new window"
+      "value": "Nije uspjelo otvaranje sučelja za moderiranje u novom prozoru"
     }
   ],
   "pages.supervision.errors.closed.description": [
     {
       "type": 0,
-      "value": "Failed to sign in the supervision interface, as it closed before it could finish signing in"
+      "value": "Prijava u sučelje za moderiranje nije uspjela jer se ono zatvorilo prije dovršetka prijave."
     }
   ],
   "pages.supervision.errors.closed.title": [
     {
       "type": 0,
-      "value": "The supervision interface was closed too quickly"
+      "value": "Sučelje za moderiranje prebrzo se zatvorilo"
     }
   ],
   "pages.supervision.errors.generic.title": [
     {
       "type": 0,
-      "value": "An unexpected error occurred whilst opening the supervision interface"
+      "value": "Došlo je do neočekivane pogreške prilikom otvaranja sučelja za moderiranje"
     }
   ],
   "pages.supervision.missing_ui_address.description": [
     {
       "type": 0,
-      "value": "Supervision is enabled in your deployment, but not Element Web, which is required for the supervision interface to work."
+      "value": "Moderiranje je omogućeno u vašoj instalaciji, ali ne i u Element Webu, koji je neophodan za rad sučelja za moderiranje."
     }
   ],
   "pages.supervision.missing_ui_address.title": [
     {
       "type": 0,
-      "value": "The supervision interface requires Element Web to be enabled"
+      "value": "Sučelje za moderiranje zahtijeva da Element Web bude omogućen"
     }
   ],
   "pages.supervision.recovery_key.copied": [
     {
       "type": 0,
-      "value": "Recovery key copied"
+      "value": "Ključ za oporavak je kopiran"
     }
   ],
   "pages.supervision.recovery_key.copy_failed": [
     {
       "type": 0,
-      "value": "Could not copy recovery key"
+      "value": "Nije moguće kopirati ključ za oporavak"
     }
   ],
   "pages.supervision.recovery_key.help": [
     {
       "type": 0,
-      "value": "This is the recovery key used to enable reading encrypted messages."
+      "value": "Ovo je ključ za oporavak koji se upotrebljava za omogućavanje čitanja šifriranih poruka."
     }
   ],
   "pages.supervision.recovery_key.label": [
     {
       "type": 0,
-      "value": "Recovery key"
+      "value": "Ključ za oporavak"
     }
   ],
   "pages.supervision.title": [
     {
       "type": 0,
-      "value": "Supervision"
+      "value": "Moderiranje"
     }
   ],
   "pages.supervision.unavailable_alert.description": [
     {
       "type": 0,
-      "value": "This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
+      "value": "Ova značajka nije dostupna u inačici ESS Community. Nadogradite na ESS Pro kako biste je omogućili."
     }
   ],
   "pages.supervision.unavailable_alert.title": [
     {
       "type": 0,
-      "value": "Supervision is a feature available in ESS Pro"
+      "value": "Moderiranje je značajka dostupna u inačici ESS Pro"
     }
   ],
   "pages.users.add_email.button": [
     {
       "type": 0,
-      "value": "Legg til e-postadresse"
+      "value": "Dodaj e-adresu"
     }
   ],
   "pages.users.add_email.description": [
     {
       "type": 0,
-      "value": "Legg til en e-postadresse til denne brukeren"
+      "value": "Dodajte e-adresu ovom korisniku"
     }
   ],
   "pages.users.add_email.error": [
     {
       "type": 0,
-      "value": "Kunne ikke legge til e-postadresse"
+      "value": "Dodavanje e-adrese nije uspjelo"
     }
   ],
   "pages.users.add_email.error.email_invalid": [
     {
       "type": 0,
-      "value": "Ugyldig e-postadresse"
+      "value": "Nevažeća e-adresa"
     }
   ],
   "pages.users.add_email.error.email_missing": [
     {
       "type": 0,
-      "value": "Dette feltet er obligatorisk"
+      "value": "Ovo polje je obavezno"
     }
   ],
   "pages.users.add_email.success": [
     {
       "type": 0,
-      "value": "E-postadresse lagt til"
+      "value": "Dodana je e-adresa"
     }
   ],
   "pages.users.add_email.title": [
     {
       "type": 0,
-      "value": "Legg til e-postadresse"
+      "value": "Dodaj e-adresu"
     }
   ],
   "pages.users.add_upstream_link.error": [
     {
       "type": 0,
-      "value": "Feil ved tilkobling av upstream-konto"
+      "value": "Povezivanje s vanjskim računom nije uspjelo"
     }
   ],
   "pages.users.add_upstream_link.success": [
     {
       "type": 0,
-      "value": "Lenke til upstream-konto lagt til"
+      "value": "Vanjski račun je povezan"
     }
   ],
   "pages.users.deactivate_account.alert.description": [
     {
       "type": 0,
-      "value": "Dette vil automatisk logge brukeren ut av alle enheter, fjerne eventuelle tilgangstokener, slette alle tredjeparts-IDer og permanent slette kontodataene deres."
+      "value": "Ovim će se korisnik automatski odjaviti sa svih uređaja, ukloniti svi tokeni za pristup, izbrisati svi ID-ovi trećih strana i trajno izbrisati podatci o njegovu računu."
     }
   ],
   "pages.users.deactivate_account.alert.title": [
     {
       "type": 0,
-      "value": "Du er i ferd med å slette brukerdata"
+      "value": "Izbrisat ćete korisničke podatke"
     }
   ],
   "pages.users.deactivate_account.button": [
     {
       "type": 0,
-      "value": "Deaktiver konto"
+      "value": "Deaktiviraj račun"
     }
   ],
   "pages.users.deactivate_account.error": [
     {
       "type": 0,
-      "value": "Kunne ikke deaktivere kontoen"
+      "value": "Deaktivacija računa nije uspjela"
     }
   ],
   "pages.users.deactivate_account.success": [
     {
       "type": 0,
-      "value": "Kontoen er deaktivert"
+      "value": "Račun je deaktiviran"
     }
   ],
   "pages.users.deactivate_account.title": [
     {
       "type": 0,
-      "value": "Deaktivere denne brukeren?"
+      "value": "Želite li deaktivirati ovog korisnika?"
     }
   ],
   "pages.users.delete_email.description": [
     {
       "type": 0,
-      "value": "Er du sikker på at du vil fjerne denne e-postadressen ("
+      "value": "Jeste li sigurni da želite ukloniti ovu e-adresu ("
     },
     {
       "type": 1,
@@ -1850,7 +1858,7 @@
     },
     {
       "type": 0,
-      "value": " ) fra denne brukeren ("
+      "value": ") od ovog korisnika ("
     },
     {
       "type": 1,
@@ -1858,31 +1866,31 @@
     },
     {
       "type": 0,
-      "value": " )?"
+      "value": ")?"
     }
   ],
   "pages.users.delete_email.error": [
     {
       "type": 0,
-      "value": "Kunne ikke slette e-postadressen"
+      "value": "Brisanje e-adrese nije uspjelo"
     }
   ],
   "pages.users.delete_email.success": [
     {
       "type": 0,
-      "value": "E-postadressen er slettet"
+      "value": "E-adresa je izbrisana"
     }
   ],
   "pages.users.delete_email.title": [
     {
       "type": 0,
-      "value": "Fjerne e-postadressen?"
+      "value": "Želite li ukloniti e-adresu?"
     }
   ],
   "pages.users.delete_upstream_link.description": [
     {
       "type": 0,
-      "value": "Er du sikker på at du vil fjerne koblingen mellom denne brukeren ("
+      "value": "Jeste li sigurni da želite ukloniti vezu između ovog korisnika ("
     },
     {
       "type": 1,
@@ -1890,7 +1898,7 @@
     },
     {
       "type": 0,
-      "value": ") og denne upstream-kontoen ("
+      "value": ") i ovog vanjskog računa ("
     },
     {
       "type": 1,
@@ -1904,115 +1912,115 @@
   "pages.users.delete_upstream_link.error": [
     {
       "type": 0,
-      "value": "Kunne ikke slette upstream-koblingen"
+      "value": "Brisanje veze s vanjskim računom nije uspjelo"
     }
   ],
   "pages.users.delete_upstream_link.success": [
     {
       "type": 0,
-      "value": "Upstream-kobling slettet"
+      "value": "Izbrisana je veza s vanjskim računom"
     }
   ],
   "pages.users.delete_upstream_link.title": [
     {
       "type": 0,
-      "value": "Fjerne kobling til upstream-kontoen?"
+      "value": "Želite li ukloniti vezu s vanjskim računom?"
     }
   ],
   "pages.users.filters.active": [
     {
       "type": 0,
-      "value": "Aktive brukere"
+      "value": "Aktivni korisnici"
     }
   ],
   "pages.users.filters.admins": [
     {
       "type": 0,
-      "value": "Administratorer"
+      "value": "Administratori"
     }
   ],
   "pages.users.filters.deactivated": [
     {
       "type": 0,
-      "value": "Deaktiverte brukere"
+      "value": "Deaktivirani korisnici"
     }
   ],
   "pages.users.filters.guests": [
     {
       "type": 0,
-      "value": "Gjester (legacy)"
+      "value": "Gosti (zastarjelo)"
     }
   ],
   "pages.users.filters.locked": [
     {
       "type": 0,
-      "value": "Låste brukere"
+      "value": "Zaključani korisnici"
     }
   ],
   "pages.users.filters.newest_first": [
     {
       "type": 0,
-      "value": "Nyeste først"
+      "value": "Najprije najnovije"
     }
   ],
   "pages.users.filters.non_guests": [
     {
       "type": 0,
-      "value": "Ikke-gjester (legacy)"
+      "value": "Korisnici koji nisu gosti (zastarjelo)"
     }
   ],
   "pages.users.lock_account.alert.description": [
     {
       "type": 0,
-      "value": "Denne brukeren vil automatisk bli låst ute fra alle enheter vedkommende er logget på for øyeblikket, og vil ikke kunne logge på nye enheter før de er låst opp."
+      "value": "Ovaj će se korisnik automatski zaključati sa svih uređaja na kojima je trenutačno prijavljen i neće se moći prijaviti na nove uređaje dok se ne otključa."
     }
   ],
   "pages.users.lock_account.alert.title": [
     {
       "type": 0,
-      "value": "Brukeren vil ikke kunne sende eller motta meldinger"
+      "value": "Korisnik neće moći slati ili primati poruke"
     }
   ],
   "pages.users.lock_account.button": [
     {
       "type": 0,
-      "value": "Lås konto"
+      "value": "Zaključaj račun"
     }
   ],
   "pages.users.lock_account.error": [
     {
       "type": 0,
-      "value": "Kunne ikke låse kontoen"
+      "value": "Zaključavanje računa nije uspjelo"
     }
   ],
   "pages.users.lock_account.success": [
     {
       "type": 0,
-      "value": "Kontoen er låst"
+      "value": "Račun je zaključan"
     }
   ],
   "pages.users.lock_account.title": [
     {
       "type": 0,
-      "value": "Låse denne brukerens konto?"
+      "value": "Želite li zaključati račun ovog korisnika?"
     }
   ],
   "pages.users.new_user.add_user": [
     {
       "type": 0,
-      "value": "Legg til bruker"
+      "value": "Dodavanje korisnika"
     }
   ],
   "pages.users.new_user.create_account": [
     {
       "type": 0,
-      "value": "Opprett konto"
+      "value": "Izradi račun"
     }
   ],
   "pages.users.new_user.description": [
     {
       "type": 0,
-      "value": "For å legge til en ny bruker på "
+      "value": "Kako biste dodali novog korisnika na poslužitelju "
     },
     {
       "type": 1,
@@ -2020,49 +2028,49 @@
     },
     {
       "type": 0,
-      "value": " , velg et brukernavn for denne brukeren, som vil være en del av vedkommendes bruker-ID."
+      "value": ", odaberite korisničko ime za tog korisnika, koje će biti dio njegova korisničkog ID-a."
     }
   ],
   "pages.users.new_user.error_message": [
     {
       "type": 0,
-      "value": "Feil ved oppretting av bruker"
+      "value": "Pogreška pri kreiranju korisnika"
     }
   ],
   "pages.users.new_user.invalid_localpart": [
     {
       "type": 0,
-      "value": "Lokal del kan bare inneholde små bokstaver, tall og understrek"
+      "value": "Lokalni dio može sadržavati samo mala slova, brojeve, točke, podcrte, crtice i obrnute kose crte"
     }
   ],
   "pages.users.new_user.invalid_localpart_numeric_only": [
     {
       "type": 0,
-      "value": "Lokal del kan ikke bare inneholde tall"
+      "value": "Lokalni dio ne može sadržavati samo brojeve"
     }
   ],
   "pages.users.new_user.localpart": [
     {
       "type": 0,
-      "value": "Skriv inn navn"
+      "value": "Unesi ime"
     }
   ],
   "pages.users.new_user.required_error": [
     {
       "type": 0,
-      "value": "Dette feltet er obligatorisk"
+      "value": "Ovo polje je obavezno"
     }
   ],
   "pages.users.new_user.success_message": [
     {
       "type": 0,
-      "value": "Bruker opprettet"
+      "value": "Korisnik je kreiran"
     }
   ],
   "pages.users.not_found.description": [
     {
       "type": 0,
-      "value": "Den forespurte brukeren ("
+      "value": "Traženi korisnik ("
     },
     {
       "type": 1,
@@ -2070,7 +2078,7 @@
     },
     {
       "type": 0,
-      "value": ") kunne ikke bli funnet på "
+      "value": ") nije pronađen na poslužitelju "
     },
     {
       "type": 1,
@@ -2084,49 +2092,49 @@
   "pages.users.not_found.title": [
     {
       "type": 0,
-      "value": "Bruker ikke funnet"
+      "value": "Korisnik nije pronađen"
     }
   ],
   "pages.users.reactivate_account.button": [
     {
       "type": 0,
-      "value": "Aktiver på nytt"
+      "value": "Ponovno aktiviraj"
     }
   ],
   "pages.users.reactivate_account.error": [
     {
       "type": 0,
-      "value": "Kunne ikke aktivere kontoen på nytt"
+      "value": "Ponovna aktivacija računa nije uspjela"
     }
   ],
   "pages.users.reactivate_account.success": [
     {
       "type": 0,
-      "value": "Kontoen er aktivert på nytt"
+      "value": "Račun je ponovno aktiviran"
     }
   ],
   "pages.users.search_placeholder": [
     {
       "type": 0,
-      "value": "Søk etter brukere"
+      "value": "Pretraži korisnike…"
     }
   ],
   "pages.users.set_admin.alert.description": [
     {
       "type": 0,
-      "value": "Brukeren vil kunne se brukerdata og gjøre endringer i bruker- og romtillatelser."
+      "value": "Korisnik će moći pregledavati korisničke podatke i mijenjati korisnička dopuštenja i dopuštenja za sobu."
     }
   ],
   "pages.users.set_admin.alert.title": [
     {
       "type": 0,
-      "value": "Brukeren vil ha tilgang til sensitive data"
+      "value": "Korisnik će imati pristup osjetljivim podatcima"
     }
   ],
   "pages.users.set_admin.error": [
     {
       "type": 0,
-      "value": "Kunne ikke endre administratorrettigheter for "
+      "value": "Nije uspjela promjena administratorskih ovlasti za "
     },
     {
       "type": 1,
@@ -2142,7 +2150,7 @@
   "pages.users.set_admin.make_admin_button": [
     {
       "type": 0,
-      "value": "Gjør til administrator"
+      "value": "Postavi za administratora"
     }
   ],
   "pages.users.set_admin.successfully_demoted": [
@@ -2152,7 +2160,7 @@
     },
     {
       "type": 0,
-      "value": " har ikke lenger administratorrettigheter"
+      "value": " više nema administratorske ovlasti"
     }
   ],
   "pages.users.set_admin.successfully_promoted": [
@@ -2162,97 +2170,97 @@
     },
     {
       "type": 0,
-      "value": " har nå administratorrettigheter"
+      "value": " sada ima administratorske ovlasti"
     }
   ],
   "pages.users.set_admin.title": [
     {
       "type": 0,
-      "value": "Vil du gjøre denne brukeren til administrator?"
+      "value": "Želite li ovog korisnika postaviti za administratora?"
     }
   ],
   "pages.users.set_password.button": [
     {
       "type": 0,
-      "value": "Endre passord"
+      "value": "Promjena zaporke"
     }
   ],
   "pages.users.set_password.confirm_password_label": [
     {
       "type": 0,
-      "value": "Skriv inn passordet på nytt"
+      "value": "Ponovno unesi zaporku"
     }
   ],
   "pages.users.set_password.error": [
     {
       "type": 0,
-      "value": "Kunne sette nytt passord"
+      "value": "Postavljanje zaporke nije uspjelo"
     }
   ],
   "pages.users.set_password.error.password_missing": [
     {
       "type": 0,
-      "value": "Dette feltet er obligatorisk"
+      "value": "Ovo polje je obavezno"
     }
   ],
   "pages.users.set_password.error.passwords_mismatch": [
     {
       "type": 0,
-      "value": "Passordene samsvarer ikke"
+      "value": "Zaporke se ne podudaraju"
     }
   ],
   "pages.users.set_password.password_label": [
     {
       "type": 0,
-      "value": "Passord"
+      "value": "Zaporka"
     }
   ],
   "pages.users.set_password.password_match": [
     {
       "type": 0,
-      "value": "Passordene stemmer overens!"
+      "value": "Zaporke se podudaraju!"
     }
   ],
   "pages.users.set_password.submit": [
     {
       "type": 0,
-      "value": "Angi nytt passord"
+      "value": "Postavi novu zaporku"
     }
   ],
   "pages.users.set_password.success": [
     {
       "type": 0,
-      "value": "Passordet er angitt"
+      "value": "Zaporka je uspješno postavljena"
     }
   ],
   "pages.users.set_password.title": [
     {
       "type": 0,
-      "value": "Angi et nytt passord for denne brukeren"
+      "value": "Postavi novu lozinku za ovog korisnika"
     }
   ],
   "pages.users.title": [
     {
       "type": 0,
-      "value": "Brukere"
+      "value": "Korisnici"
     }
   ],
   "pages.users.unlock_account.button": [
     {
       "type": 0,
-      "value": "Lås opp kontoen"
+      "value": "Otključaj račun"
     }
   ],
   "pages.users.unlock_account.error": [
     {
       "type": 0,
-      "value": "Kunne ikke låse opp kontoen"
+      "value": "Otključavanje računa nije uspjelo"
     }
   ],
   "pages.users.unlock_account.success": [
     {
       "type": 0,
-      "value": "Kontoen er låst opp"
+      "value": "Račun je otključan"
     }
   ],
   "pages.users.user_count": [
@@ -2266,7 +2274,7 @@
             },
             {
               "type": 0,
-              "value": " bruker"
+              "value": " korisnik"
             }
           ]
         },
@@ -2277,7 +2285,7 @@
             },
             {
               "type": 0,
-              "value": " brukere"
+              "value": " korisnika"
             }
           ]
         },
@@ -2285,7 +2293,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Ingen brukere"
+              "value": "Nema korisnika"
             }
           ]
         }
@@ -2328,19 +2336,19 @@
   "room_info.empty_room": [
     {
       "type": 0,
-      "value": "Tomt rom"
+      "value": "Prazna soba"
     }
   ],
   "room_info.empty_space": [
     {
       "type": 0,
-      "value": "Tomt område"
+      "value": "Prazan prostor"
     }
   ],
   "room_info.room_with": [
     {
       "type": 0,
-      "value": "Rom med "
+      "value": "Soba s članovima "
     },
     {
       "type": 1,
@@ -2350,7 +2358,7 @@
   "room_info.space_with": [
     {
       "type": 0,
-      "value": "Område med "
+      "value": "Prostor s članovima "
     },
     {
       "type": 1,
@@ -2360,32 +2368,43 @@
   "room_info.unknown_user": [
     {
       "type": 0,
-      "value": "Ukjent bruker"
+      "value": "Nepoznati korisnik"
     }
   ],
   "rooms_info.other_members": [
     {
       "offset": 0,
       "options": {
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "još "
+            },
+            {
+              "type": 7
+            }
+          ]
+        },
         "one": {
           "value": [
             {
-              "type": 7
+              "type": 0,
+              "value": "još "
             },
             {
-              "type": 0,
-              "value": " annen"
+              "type": 7
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
+              "type": 0,
+              "value": "još "
             },
             {
-              "type": 0,
-              "value": " andre"
+              "type": 7
             }
           ]
         }
@@ -2398,19 +2417,19 @@
   "ui.data.failed_to_load": [
     {
       "type": 0,
-      "value": "Kunne ikke laste inn"
+      "value": "Učitavanje nije uspjelo"
     }
   ],
   "ui.data.loading": [
     {
       "type": 0,
-      "value": "Laster inn verdi"
+      "value": "Učitavanje vrijednosti"
     }
   ],
   "ui.language_switcher.browser_default": [
     {
       "type": 0,
-      "value": "Bruk nettleserinnstillingene ("
+      "value": "Upotrijebi postavke preglednika ("
     },
     {
       "type": 1,
@@ -2418,49 +2437,49 @@
     },
     {
       "type": 0,
-      "value": " )"
+      "value": ")"
     }
   ],
   "ui.language_switcher.button_label": [
     {
       "type": 0,
-      "value": "Språkinnstillinger"
+      "value": "Postavke jezika"
     }
   ],
   "ui.language_switcher.description": [
     {
       "type": 0,
-      "value": "Velg ditt foretrukne språk for grensesnittet."
+      "value": "Odaberite željeni jezik za sučelje."
     }
   ],
   "ui.language_switcher.language_list_label": [
     {
       "type": 0,
-      "value": "List of available languages"
+      "value": "Popis dostupnih jezika"
     }
   ],
   "ui.language_switcher.title": [
     {
       "type": 0,
-      "value": "Språkinnstillinger"
+      "value": "Postavke jezika"
     }
   ],
   "ui.user_picker.loading_list": [
     {
       "type": 0,
-      "value": "Loading…"
+      "value": "U tijeku je učitavanje…"
     }
   ],
   "ui.user_picker.no_match": [
     {
       "type": 0,
-      "value": "No match"
+      "value": "Nema podudaranja"
     }
   ],
   "ui.user_picker.no_match_help": [
     {
       "type": 0,
-      "value": "Try a different search term. This can only lookup active users on "
+      "value": "Pokušajte s drugim pojmom za pretraživanje. TIme se mogu pretraživati ​​samo aktivni korisnici na poslužitelju "
     },
     {
       "type": 1,
@@ -2468,7 +2487,7 @@
     },
     {
       "type": 0,
-      "value": " using their localpart."
+      "value": " pomoću lokalnog dijela njihova imena."
     }
   ]
 }

@@ -32,7 +32,7 @@
   "action.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Löschen"
     }
   ],
   "action.go_back": [
@@ -318,7 +318,7 @@
       "value": "Auditing"
     }
   ],
-  "marketing.moderation.description": [
+  "marketing.supervision.description": [
     {
       "children": [
         {
@@ -414,7 +414,7 @@
       "value": "ul"
     }
   ],
-  "marketing.moderation.title": [
+  "marketing.supervision.title": [
     {
       "type": 0,
       "value": "Moderation"
@@ -438,12 +438,6 @@
       "value": "Dokumentation"
     }
   ],
-  "navigation.moderation": [
-    {
-      "type": 0,
-      "value": "Moderation"
-    }
-  ],
   "navigation.personal_tokens": [
     {
       "type": 0,
@@ -460,6 +454,12 @@
     {
       "type": 0,
       "value": "Chats"
+    }
+  ],
+  "navigation.supervision": [
+    {
+      "type": 0,
+      "value": "Moderation"
     }
   ],
   "navigation.users": [
@@ -612,122 +612,6 @@
     {
       "type": 0,
       "value": "Login"
-    }
-  ],
-  "pages.moderation.description": [
-    {
-      "type": 0,
-      "value": "Melden Sie sich als "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "mxid"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " an, um administrative Aktionen in jedem beliebigen Chat durchzuführen."
-    }
-  ],
-  "pages.moderation.disabled_alert.description": [
-    {
-      "type": 0,
-      "value": "Diese Funktion ist Bestandteil Ihres Abonnements. Sie können einen Administrator bitten, sie zu aktivieren."
-    }
-  ],
-  "pages.moderation.disabled_alert.title": [
-    {
-      "type": 0,
-      "value": "Moderation ist derzeit deaktiviert"
-    }
-  ],
-  "pages.moderation.errors.cant_open.description": [
-    {
-      "type": 0,
-      "value": "Ihr Browser blockiert das Öffnen von Popup-Fenstern. Bitte stellen Sie sicher, dass Sie Popups von dieser Website zulassen."
-    }
-  ],
-  "pages.moderation.errors.cant_open.title": [
-    {
-      "type": 0,
-      "value": "Die Moderationsoberfläche konnte nicht in einem neuen Fenster geöffnet werden."
-    }
-  ],
-  "pages.moderation.errors.closed.description": [
-    {
-      "type": 0,
-      "value": "Die Anmeldung bei der Moderationsschnittstelle ist fehlgeschlagen, da diese geschlossen wurde, bevor die Anmeldung abgeschlossen werden konnte."
-    }
-  ],
-  "pages.moderation.errors.closed.title": [
-    {
-      "type": 0,
-      "value": "Die Moderationsoberfläche wurde vorzeitig geschlossen."
-    }
-  ],
-  "pages.moderation.errors.generic.title": [
-    {
-      "type": 0,
-      "value": "Beim Öffnen der Moderationsoberfläche ist ein unerwarteter Fehler aufgetreten."
-    }
-  ],
-  "pages.moderation.missing_ui_address.description": [
-    {
-      "type": 0,
-      "value": "Moderation ist in Ihrer Umgebung aktiviert, jedoch nicht in Element Web, das für die Funktion der Moderationsoberfläche erforderlich ist."
-    }
-  ],
-  "pages.moderation.missing_ui_address.title": [
-    {
-      "type": 0,
-      "value": "Die Moderationsoberfläche erfordert, dass Element Web aktiviert ist."
-    }
-  ],
-  "pages.moderation.recovery_key.copied": [
-    {
-      "type": 0,
-      "value": "Wiederherstellungsschlüssel kopiert"
-    }
-  ],
-  "pages.moderation.recovery_key.copy_failed": [
-    {
-      "type": 0,
-      "value": "Der Wiederherstellungsschlüssel konnte nicht kopiert werden."
-    }
-  ],
-  "pages.moderation.recovery_key.help": [
-    {
-      "type": 0,
-      "value": "Dies ist der Wiederherstellungsschlüssel, der zum Lesen verschlüsselter Nachrichten benötigt wird."
-    }
-  ],
-  "pages.moderation.recovery_key.label": [
-    {
-      "type": 0,
-      "value": "Wiederherstellungsschlüssel"
-    }
-  ],
-  "pages.moderation.title": [
-    {
-      "type": 0,
-      "value": "Moderation"
-    }
-  ],
-  "pages.moderation.unavailable_alert.description": [
-    {
-      "type": 0,
-      "value": "Diese Funktion ist in ESS Community nicht verfügbar. Wechseln Sie zu ESS Pro, um sie zu aktivieren."
-    }
-  ],
-  "pages.moderation.unavailable_alert.title": [
-    {
-      "type": 0,
-      "value": "Moderation ist eine Funktion, die in ESS Pro verfügbar ist."
     }
   ],
   "pages.personal_tokens.acting_user_column": [
@@ -1524,55 +1408,55 @@
   "pages.rooms.delete_room.alert.description": [
     {
       "type": 0,
-      "value": "This will permanently delete all messages or media uploaded to the server and remove this room from the directory. Members will lose access to their messages and the room will be removed from their room list."
+      "value": "Dadurch werden alle auf den Server hochgeladenen Nachrichten und Medien endgültig entfernt und diese Gruppe wird aus dem Verzeichnis entfernt. Mitglieder verlieren den Zugriff auf ihre Nachrichten, und die Gruppe wird aus ihrer Chatliste gelöscht."
     }
   ],
   "pages.rooms.delete_room.alert.title": [
     {
       "type": 0,
-      "value": "You’re about to delete room data"
+      "value": "Du bist im Begriff, Chat Daten zu löschen."
     }
   ],
   "pages.rooms.delete_room.block.help": [
     {
       "type": 0,
-      "value": "Prevent users from rejoining the room after deletion."
+      "value": "Nutzern nicht gestatten, die Gruppe nach dem Löschen wieder zu betreten."
     }
   ],
   "pages.rooms.delete_room.block.label": [
     {
       "type": 0,
-      "value": "Block room"
+      "value": "Chat sperren"
     }
   ],
   "pages.rooms.delete_room.button": [
     {
       "type": 0,
-      "value": "Delete permanently"
+      "value": "Dauerhaft löschen"
     }
   ],
   "pages.rooms.delete_room.error": [
     {
       "type": 0,
-      "value": "Failed to schedule room deletion"
+      "value": "Das Löschen des Chats konnte nicht geplant werden."
     }
   ],
   "pages.rooms.delete_room.success": [
     {
       "type": 0,
-      "value": "Room deletion scheduled"
+      "value": "Löschen des Chats geplant"
     }
   ],
   "pages.rooms.delete_room.title": [
     {
       "type": 0,
-      "value": "Delete this room?"
+      "value": "Diesen Chat löschen?"
     }
   ],
   "pages.rooms.deletion.failure.description": [
     {
       "type": 0,
-      "value": "Room deletion task failed on "
+      "value": "Der Vorgang zum Löschen eines Chats ist am "
     },
     {
       "style": "short",
@@ -1581,7 +1465,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " um "
     },
     {
       "style": "short",
@@ -1590,7 +1474,7 @@
     },
     {
       "type": 0,
-      "value": " with error: "
+      "value": " Uhr mit folgendem Fehler fehlgeschlagen: "
     },
     {
       "type": 1,
@@ -1600,13 +1484,13 @@
   "pages.rooms.deletion.failure.title": [
     {
       "type": 0,
-      "value": "Deletion failed"
+      "value": "Löschen fehlgeschlagen"
     }
   ],
   "pages.rooms.deletion.in_progress.description": [
     {
       "type": 0,
-      "value": "Room deletion task is in progress since "
+      "value": "Der Vorgang zum Löschen eines Chats läuft seit "
     },
     {
       "style": "short",
@@ -1615,7 +1499,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " um "
     },
     {
       "style": "short",
@@ -1624,19 +1508,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " Uhr."
     }
   ],
   "pages.rooms.deletion.in_progress.title": [
     {
       "type": 0,
-      "value": "Deletion in progress"
+      "value": "Löschvorgang läuft"
     }
   ],
   "pages.rooms.deletion.success.description": [
     {
       "type": 0,
-      "value": "Room deletion task completed successfully on "
+      "value": "Die Aufgabe zum Löschen eines Chats wurde erfolgreich am "
     },
     {
       "style": "short",
@@ -1645,7 +1529,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " um "
     },
     {
       "style": "short",
@@ -1654,13 +1538,13 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " Uhr abgeschlossen."
     }
   ],
   "pages.rooms.deletion.success.title": [
     {
       "type": 0,
-      "value": "Deletion successful"
+      "value": "Löschung erfolgreich"
     }
   ],
   "pages.rooms.filters.empty_rooms": [
@@ -1759,6 +1643,122 @@
     {
       "type": 0,
       "value": "Chats"
+    }
+  ],
+  "pages.supervision.description": [
+    {
+      "type": 0,
+      "value": "Melden Sie sich als "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "mxid"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " an, um administrative Aktionen in jedem beliebigen Chat durchzuführen."
+    }
+  ],
+  "pages.supervision.disabled_alert.description": [
+    {
+      "type": 0,
+      "value": "Diese Funktion ist Bestandteil Ihres Abonnements. Sie können einen Administrator bitten, sie zu aktivieren."
+    }
+  ],
+  "pages.supervision.disabled_alert.title": [
+    {
+      "type": 0,
+      "value": "Moderation ist derzeit deaktiviert"
+    }
+  ],
+  "pages.supervision.errors.cant_open.description": [
+    {
+      "type": 0,
+      "value": "Ihr Browser blockiert das Öffnen von Popup-Fenstern. Bitte stellen Sie sicher, dass Sie Popups von dieser Website zulassen."
+    }
+  ],
+  "pages.supervision.errors.cant_open.title": [
+    {
+      "type": 0,
+      "value": "Die Moderationsoberfläche konnte nicht in einem neuen Fenster geöffnet werden."
+    }
+  ],
+  "pages.supervision.errors.closed.description": [
+    {
+      "type": 0,
+      "value": "Die Anmeldung bei der Moderationsschnittstelle ist fehlgeschlagen, da diese geschlossen wurde, bevor die Anmeldung abgeschlossen werden konnte."
+    }
+  ],
+  "pages.supervision.errors.closed.title": [
+    {
+      "type": 0,
+      "value": "Die Moderationsoberfläche wurde vorzeitig geschlossen."
+    }
+  ],
+  "pages.supervision.errors.generic.title": [
+    {
+      "type": 0,
+      "value": "Beim Öffnen der Moderationsoberfläche ist ein unerwarteter Fehler aufgetreten."
+    }
+  ],
+  "pages.supervision.missing_ui_address.description": [
+    {
+      "type": 0,
+      "value": "Moderation ist in Ihrer Umgebung aktiviert, jedoch nicht in Element Web, das für die Funktion der Moderationsoberfläche erforderlich ist."
+    }
+  ],
+  "pages.supervision.missing_ui_address.title": [
+    {
+      "type": 0,
+      "value": "Die Moderationsoberfläche erfordert, dass Element Web aktiviert ist."
+    }
+  ],
+  "pages.supervision.recovery_key.copied": [
+    {
+      "type": 0,
+      "value": "Wiederherstellungsschlüssel kopiert"
+    }
+  ],
+  "pages.supervision.recovery_key.copy_failed": [
+    {
+      "type": 0,
+      "value": "Der Wiederherstellungsschlüssel konnte nicht kopiert werden."
+    }
+  ],
+  "pages.supervision.recovery_key.help": [
+    {
+      "type": 0,
+      "value": "Dies ist der Wiederherstellungsschlüssel, der zum Lesen verschlüsselter Nachrichten benötigt wird."
+    }
+  ],
+  "pages.supervision.recovery_key.label": [
+    {
+      "type": 0,
+      "value": "Wiederherstellungsschlüssel"
+    }
+  ],
+  "pages.supervision.title": [
+    {
+      "type": 0,
+      "value": "Moderation"
+    }
+  ],
+  "pages.supervision.unavailable_alert.description": [
+    {
+      "type": 0,
+      "value": "Diese Funktion ist in ESS Community nicht verfügbar. Wechseln Sie zu ESS Pro, um sie zu aktivieren."
+    }
+  ],
+  "pages.supervision.unavailable_alert.title": [
+    {
+      "type": 0,
+      "value": "Moderation ist eine Funktion, die in ESS Pro verfügbar ist."
     }
   ],
   "pages.users.add_email.button": [
@@ -2448,7 +2448,7 @@
   "ui.language_switcher.language_list_label": [
     {
       "type": 0,
-      "value": "List of available languages"
+      "value": "Liste der verfügbaren Sprachen"
     }
   ],
   "ui.language_switcher.title": [
