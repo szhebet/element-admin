@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
 changelog:
+  exclude:
+    labels:
+      - A-Dependencies
+    authors:
+      - dependabot
+      - dependabot[bot]
   categories:
     - title: Bug Fixes
       labels:
@@ -24,10 +30,3 @@ changelog:
     - title: Other Changes
       labels:
         - "*"
-      exclude:
-        labels:
-          - A-Dependencies
-
-    - title: Dependency Updates
-      labels:
-        - A-Dependencies
