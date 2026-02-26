@@ -24,5 +24,7 @@ FROM ghcr.io/nginx/nginx-unprivileged:1.29.3-alpine-slim
 COPY --from=builder /app/dist /dist
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY docker/replace-config.sh /docker-entrypoint.d/replace-config.sh
+USER root
+RUN chmod +x /docker-entrypoint.d/replace-config.sh
 
 EXPOSE 8080

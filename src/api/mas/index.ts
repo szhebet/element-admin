@@ -18,6 +18,7 @@ import { fetch } from "@/utils/fetch";
 
 import * as api from "./api";
 import { createClient, type Client } from "./api/client";
+import { masLocalConfig } from "@/config";
 
 const masClient = createClient({
   fetch,
@@ -99,6 +100,40 @@ const masBaseOptions = async (
   signal?: AbortSignal;
 }> => {
   const token = await accessToken(client, signal);
+
+  // If a MAS local override was provided via runtime config, prefer that and
+  // avoid performing well-known/auth metadata discovery to determine the MAS
+  // base URL.
+  if (masLocalConfig) {
+    try {
+      let baseUrl = "";
+      if (typeof masLocalConfig === "string") {
+        baseUrl = masLocalConfig.replace(/\/$/, "");
+      } else if (typeof masLocalConfig === "object" && masLocalConfig !== null) {
+        const m = masLocalConfig as Record<string, unknown>;
+        if (typeof m.base_url === "string") baseUrl = m.base_url.replace(/\/$/, "");
+        else if (typeof m.baseUrl === "string") baseUrl = m.baseUrl.replace(/\/$/, "");
+        else if (typeof m.graphql_endpoint === "string") baseUrl = (m.graphql_endpoint as string).replace(/\/graphql$/, "");
+        else if (typeof m.issuer === "string") baseUrl = (m.issuer as string).replace(/\/$/, "");
+      }
+
+      if (baseUrl) {
+        console.info("[MAS] Using MAS_LOCAL override for MAS root:", baseUrl);
+        return {
+          client: masClient,
+          auth: token,
+          baseUrl,
+          throwOnError: false,
+          ...(signal && { signal }),
+        };
+      }
+    } catch (err) {
+      console.warn("[MAS] Failed to resolve MAS_LOCAL_BASE64 override, falling back to discovery", err);
+      // fallthrough to discovery
+    }
+  }
+
+  // Fallback to discovery/auth metadata when no valid override was provided
   const wellKnown = await client.ensureQueryData(wellKnownQuery(serverName));
 
   const authMetadata = await client.ensureQueryData(
@@ -116,7 +151,7 @@ const masBaseOptions = async (
       "org.matrix.matrix-authentication-service.graphql_endpoint"
     ].replace(/\/graphql$/, "");
   }
-
+  console.info("[MAS] Using discovered MAS root:", baseUrl);
   return {
     client: masClient,
     auth: token,

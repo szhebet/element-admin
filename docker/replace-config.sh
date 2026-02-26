@@ -18,6 +18,8 @@ set -eux
 SOURCE=/dist/index.html
 DEST=/tmp/index.runtime.html
 SERVER_NAME="${SERVER_NAME:-}"
+MAS_LOCAL="${MAS_LOCAL_BASE64:-}"
+SYNAPSE_LOCAL="${SYNAPSE_LOCAL_BASE64:-}"
 
 CONFIG=$(base64 -w 0 <<EOF
 {
@@ -26,4 +28,11 @@ CONFIG=$(base64 -w 0 <<EOF
 EOF
 )
 
-sed "s/APP_CONFIG_PLACEHOLDER/${CONFIG}/" "$SOURCE" > "$DEST"
+# Encode MAS/SYNAPSE values to base64 so the client can consume them as
+# "..._BASE64" variables regardless of whether the env was a raw URL or
+# already a base64 string.
+MAS_CONFIG=$(printf '%s' "$MAS_LOCAL" | base64 -w 0)
+SYNAPSE_CONFIG=$(printf '%s' "$SYNAPSE_LOCAL" | base64 -w 0)
+
+# Use '|' as the sed delimiter to avoid conflicts with '/' characters in URLs
+sed "s|APP_CONFIG_PLACEHOLDER|${CONFIG}|; s|MAS_LOCAL_PLACEHOLDER|${MAS_CONFIG}|; s|SYNAPSE_LOCAL_PLACEHOLDER|${SYNAPSE_CONFIG}|; s|SERVER_NAME_PLACEHOLDER|${SERVER_NAME}|" "$SOURCE" > "$DEST"
