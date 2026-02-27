@@ -16,7 +16,7 @@ Element Admin — это веб-панель администрирования 
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/element-hq/element-admin.git
+git clone https://github.com/szhebet/element-admin.git
 cd element-admin
 ```
 
@@ -38,7 +38,7 @@ pnpm build
 Или с использованием Docker
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/element-hq/element-admin.git
+git clone https://github.com/szhebet/element-admin.git
 cd element-admin
 ```
 
