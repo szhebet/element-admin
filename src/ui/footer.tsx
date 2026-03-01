@@ -1,7 +1,3 @@
-// SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
-// SPDX-FileCopyrightText: Copyright 2025, 2026 Element Creations Ltd.
-//
-// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
 import { Link } from "@vector-im/compound-web";
 import { FormattedMessage } from "react-intl";
@@ -14,29 +10,11 @@ const AppFooter = () => (
     <Footer.ElementLogo />
 
     <Footer.Section>
-      <Link href="https://customer.element.io/support" size="small">
-        <FormattedMessage
-          id="footer.help_and_support"
-          defaultMessage="Help & Support"
-          description="Label for the help and support (to https://customer.element.io/support) link in the footer"
-        />
-      </Link>
+
       <Footer.Divider />
-      <Link href="https://element.io/legal" size="small">
-        <FormattedMessage
-          id="footer.legal"
-          defaultMessage="Legal"
-          description="Label for the legal (to https://element.io/legal) link in the footer"
-        />
-      </Link>
+
       <Footer.Divider />
-      <Link href="https://element.io/legal/privacy" size="small">
-        <FormattedMessage
-          id="footer.privacy"
-          defaultMessage="Privacy"
-          description="Label for the privacy (to https://element.io/legal/privacy) link in the footer"
-        />
-      </Link>
+
     </Footer.Section>
 
     <Footer.Divider />

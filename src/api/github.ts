@@ -20,18 +20,7 @@ export const githubReleaseQuery = (repo: string, release: string) =>
   queryOptions({
     queryKey: ["github", repo, "release", release],
     queryFn: async ({ signal }) => {
-      const url = new URL(
-        `https://api.github.com/repos/${repo}/releases/${release}`,
-      );
-      const response = await fetch(url, {
-        signal,
-      });
-
-      ensureResponseOk(response);
-
-      const releaseData = v.parse(ReleaseResponse, await response.json());
-
-      return releaseData;
+      return null;
     },
     // We don't want to re-fetch once we have the data, else we'll get rate-limited by GitHub
     staleTime: Infinity,

@@ -20,31 +20,10 @@ export const essVersionQuery = (synapseRoot: string) =>
   queryOptions({
     queryKey: ["ess", "version", synapseRoot],
     queryFn: async ({ client, signal }) => {
-      const versionUrl = new URL("/_synapse/ess/version", synapseRoot);
-      try {
-        const token = await accessToken(client, signal);
-        const response = await fetch(versionUrl, {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-          signal,
-        });
-
-        ensureResponseOk(response);
-
-        const versionData = v.parse(VersionResponse, await response.json());
-
-        return versionData;
-      } catch (error) {
-        console.warn(
-          "Failed to detect ESS version, this is probably not an ESS deployment",
-          error,
-        );
         return {
           version: null,
           edition: null,
         };
-      }
     },
   });
 
@@ -75,23 +54,6 @@ export const adminbotQuery = (synapseRoot: string) =>
   queryOptions({
     queryKey: ["ess", "adminbot", synapseRoot],
     queryFn: async ({ client, signal }) => {
-      const adminbotUrl = new URL("/_synapse/ess/adminbot", synapseRoot);
-      const token = await accessToken(client, signal);
-      const response = await fetch(adminbotUrl, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-        signal,
-      });
-
-      if (response.status === 404) {
-        return null;
-      }
-
-      ensureResponseOk(response);
-
-      const adminbotData = v.parse(AdminbotResponse, await response.json());
-
-      return adminbotData;
+      return null;
     },
   });

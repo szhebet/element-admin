@@ -1,7 +1,3 @@
-// SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
-// SPDX-FileCopyrightText: Copyright 2025, 2026 Element Creations Ltd.
-//
-// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
 import {
   AdminIcon,
@@ -46,22 +42,7 @@ const AppNavigation = ({ features }: { features: MasFeaturesStatus }) => (
         description="Label for the rooms navigation item in the main navigation sidebar"
       />
     </Navigation.NavLink>
-    <Navigation.Divider />
-    <Navigation.NavLink Icon={ExportArchiveIcon} to="/auditing">
-      <FormattedMessage
-        id="navigation.auditing"
-        defaultMessage="Auditing"
-        description="Label for the auditing navigation item in the main navigation sidebar"
-      />
-    </Navigation.NavLink>
-    <Navigation.NavLink Icon={AdminIcon} to="/supervision">
-      <FormattedMessage
-        id="navigation.supervision"
-        defaultMessage="Supervision"
-        description="Label for the supervision navigation item in the main navigation sidebar"
-      />
-    </Navigation.NavLink>
-    <Navigation.Divider />
+
     {features.personalTokens && (
       <Navigation.NavLink
         Icon={InlineCodeIcon}
@@ -89,18 +70,6 @@ const AppNavigation = ({ features }: { features: MasFeaturesStatus }) => (
       />
     </Navigation.NavLink>
     <Navigation.Divider />
-    <Navigation.NavAnchor
-      Icon={DocumentIcon}
-      href="https://docs.element.io/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <FormattedMessage
-        id="navigation.documentation"
-        defaultMessage="Documentation"
-        description="Label for the documentation navigation link (to https://docs.element.io/) in the main navigation sidebar"
-      />
-    </Navigation.NavAnchor>
   </Navigation.Sidebar>
 );
 

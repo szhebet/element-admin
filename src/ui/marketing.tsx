@@ -1,7 +1,3 @@
-// SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
-// SPDX-FileCopyrightText: Copyright 2025, 2026 Element Creations Ltd.
-//
-// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
 import {
   AdminIcon,
@@ -17,54 +13,24 @@ export const AlsoAvailableInPro = () => (
   <Card.Root kind="primary" narrow>
     <Card.Header>
       <Card.Title>
-        <FormattedMessage
-          id="marketing.also_available_in_pro.title"
-          defaultMessage="Also available in Pro…"
-          description="When we show off a feature that is only available in ESS Pro, this is the title of the card explaining what ESS Pro is"
-        />
+
       </Card.Title>
       <ProBadge />
     </Card.Header>
 
     <Card.Body>
-      <FormattedMessage
-        id="marketing.also_available_in_pro.description"
-        defaultMessage="
-<p><link>ESS Pro</link> is the commercial backend distribution from Element.</p>
-<p>It includes everything in ESS Community plus additional features and
-services that are tailored to professional environments with more than 100 users
-up to massive scale in the millions.</p>
-<p>It is designed to support enterprise requirements in terms of advanced IAM,
-compliance, scalability, high availability and multi-tenancy.</p>"
-        description="When we show off a feature that is only available in ESS Pro, this is the description of the card explaining what ESS Pro is"
-        values={{
-          p: (chunks) => <p>{...chunks}</p>,
-          link: (chunks) => (
-            <a
-              target="_blank"
-              href="https://element.io/pro"
-              rel="noreferrer noopener"
-            >
-              {...chunks}
-            </a>
-          ),
-        }}
-      />
+
     </Card.Body>
 
     <Card.Footer>
       <Button
         as="a"
         target="_blank"
-        href="https://try.element.io/upgrade-ess-community"
+        href=""
         kind="primary"
         size="sm"
       >
-        <FormattedMessage
-          id="marketing.also_available_in_pro.upgrade"
-          defaultMessage="Upgrade to Pro"
-          description="When we show off a feature that is only available in ESS Pro, this is the button to lead the user to the ESS Pro upgrade page"
-        />
+
       </Button>
     </Card.Footer>
   </Card.Root>
@@ -86,18 +52,7 @@ export const SupervisionCard = ({ proBadge }: { proBadge?: boolean }) => (
 
     <FormattedMessage
       id="marketing.supervision.description"
-      defaultMessage="
-<p>Supervision enables an organisation to administer all rooms from a central
-point. A 'supervisor' account will join defined rooms with room admin privileges.
-Server administrators can seamlessly impersonate the account from the admin
-console to manage and supervise their rooms.</p>
-<ul>
-<li>Manage rooms and their settings (name, topic, permissions, etc.)</li>
-<li>Manage room memberships</li>
-<li>Remove unwanted messages and uploaded media</li>
-<li>Recover abandoned rooms (all users have left)</li>
-<li>Supervisor account can or cannot read encrypted message contents (configurable)</li>
-</ul>"
+      defaultMessage=""
       values={{
         p: (chunks) => <Card.Body>{...chunks}</Card.Body>,
         ul: (chunks) => <Card.Checklist>{...chunks}</Card.Checklist>,
@@ -125,18 +80,7 @@ export const AuditingCard = ({ proBadge }: { proBadge?: boolean }) => (
     <Card.Body>
       <FormattedMessage
         id="marketing.auditing.description"
-        defaultMessage="
-<p>Auditing gives organizations the ability to keep records of end-to-end
-encrypted conversations and room events to meet compliance or legal
-requirements.</p>
-<p>When enabled, it is visible to all end users which rooms are being recorded
-to ensure transparency of the auditing process.</p>
-<p>Auditing can be configured to suit an organization’s specific requirements.
-For instance direct messages between two individuals can be excluded so that
-only group conversations are recorded.</p>
-<p>Audit data is being stored as a stream of machine-readable events in the JSON
-format either on file storage or S3 and can be forwarded to log analyzer tooling
-for further filtering and analysis.</p>"
+        defaultMessage=""
         values={{
           p: (chunks) => <p>{...chunks}</p>,
         }}
