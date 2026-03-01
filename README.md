@@ -51,11 +51,14 @@ docker build -t name/ess-admin .
 ```bash
 docker run -it --rm -p 8081:8080 \
 -e SERVER_NAME=<external server name> \
--e SYNAPSE_LOCAL=<internal synapse address or name>:<internal port (8008)> \
--e MAS_LOCAL=<internal MAS address or name>:<internal MAS port (8180)> \
+-e SYNAPSE_LOCAL=<local synapse address or name>:<local port (8008)> \
+-e MAS_LOCAL=<local MAS address or name>:<local MAS port (8180)> \
 --name adm \
 name/ess-admin
 ```
+
+4. Даже при использовании сервиса в локальной сети - нужен SSL, иначе браузер блокирует запросы (ну или заходить через http://localhost/...)
+
 
 </details>
 
